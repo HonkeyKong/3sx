@@ -1,9 +1,11 @@
 #include "core/xbox_buttons.h"
 #include "core/render_primitives.h"
 #include "port/utils.h"
+#include "port/paths.h"
 #include "sf33rd/AcrSDK/ps2/flps2etc.h"
 
-#include <SDL3/SDL.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #define XBOX_TEXTURE_WIDTH 64.0f
 #define XBOX_TEXTURE_HEIGHT 128.0f
@@ -18,11 +20,12 @@ static const int xbox_atlas[][2] = {
 static u32 xbox_texture = 0;
 
 bool XboxButtons_Init() {
-    const char* base_path = SDL_GetBasePath();
-    char* full_path = NULL;
-    SDL_asprintf(&full_path, "%s/assets/xbox_buttons.bmp", base_path);
+    const char* base_path = Paths_GetBasePath();
+    const size_t size = snprintf(NULL, 0, "%s/assets/xbox_buttons.bmp", base_path) + 1;
+    char* full_path = malloc(size);
+    snprintf(full_path, size, "%s/assets/xbox_buttons.bmp", base_path);
     xbox_texture = flCreateTextureFromFile(full_path, 0);
-    SDL_free(full_path);
+    free(full_path);
     return xbox_texture != 0;
 }
 

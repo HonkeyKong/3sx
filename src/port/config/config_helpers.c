@@ -1,5 +1,7 @@
 #include "port/config/config_helpers.h"
 
+#include <stdarg.h>
+
 #include <SDL3/SDL.h>
 
 void trim(char* string) {

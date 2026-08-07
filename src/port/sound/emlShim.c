@@ -7,6 +7,13 @@
 #include <stdio.h>
 #include <string.h>
 
+#if CRS_AUDIO_DRIVER_LIBRETRO
+/* retro_run() owns both emulation and audio mixing on one thread. */
+#define SDL_LockMutex(unused) ((void)0)
+#define SDL_UnlockMutex(unused) ((void)0)
+#define soundLock NULL
+#endif
+
 // Loosely based on the voice work struct from CSELIB00.IRX
 // We probably don't actually need much of this
 

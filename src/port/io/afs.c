@@ -15,14 +15,14 @@
 #define AFS_MAX_NAME_LENGTH 32
 
 typedef struct AFSEntry {
-    size_t offset;
-    size_t size;
+    Uint32 offset;
+    Uint32 size;
     char name[AFS_MAX_NAME_LENGTH];
 } AFSEntry;
 
 typedef struct AFS {
-    const char* file_path;
-    size_t entry_count;
+    char* file_path;
+    Uint32 entry_count;
     AFSEntry* entries;
 } AFS;
 
@@ -78,11 +78,11 @@ static bool is_valid_attribute_data(Uint32 attributes_offset, Uint32 attributes_
 }
 
 static void read_string(SDL_IOStream* src, char* dst) {
-    char c;
+    Sint8 c;
 
     do {
         SDL_ReadS8(src, &c);
-        *dst++ = c;
+        *dst++ = (char)c;
     } while (c != '\0');
 }
 
@@ -91,6 +91,8 @@ static bool init_afs(const char* file_path) {
     SDL_IOStream* io = SDL_IOFromFile(file_path, "rb");
 
     if (io == NULL) {
+        SDL_free(afs.file_path);
+        afs.file_path = NULL;
         return false;
     }
 
@@ -101,6 +103,8 @@ static bool init_afs(const char* file_path) {
 
     if (magic != AFS_MAGIC) {
         SDL_CloseIO(io);
+        SDL_free(afs.file_path);
+        afs.file_path = NULL;
         return false;
     }
 

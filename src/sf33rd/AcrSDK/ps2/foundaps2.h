@@ -18,6 +18,7 @@ extern s32 flHeight;
 extern s32 flWidth;
 extern FLTexture flPalette[FL_PALETTE_MAX];
 extern FLTexture flTexture[FL_TEXTURE_MAX];
+void flShutdown(void);
 extern FLPS2State flPs2State;
 
 s32 flInitialize();

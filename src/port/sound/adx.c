@@ -260,12 +260,17 @@ void ADX_ProcessTracks() {
 }
 
 void ADX_Init() {
+#if CRS_AUDIO_DRIVER_LIBRETRO
+    stream = NULL;
+    return;
+#else
     const SDL_AudioSpec spec = { .format = SDL_AUDIO_S16, .channels = N_CHANNELS, .freq = SAMPLE_RATE };
     stream = SDL_OpenAudioDeviceStream(SDL_AUDIO_DEVICE_DEFAULT_PLAYBACK, &spec, NULL, NULL);
 
     if (stream == NULL) {
         SDL_Log("Failed to create audio stream: %s; continuing without sound", SDL_GetError());
     }
+#endif
 }
 
 void ADX_Exit() {

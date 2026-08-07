@@ -1,7 +1,9 @@
 #include "port/sound/spu.h"
 
 #include "common.h"
+#if !CRS_AUDIO_DRIVER_LIBRETRO
 #include <SDL3/SDL.h>
+#endif
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
@@ -57,10 +59,15 @@ struct SPU_Voice {
     u32 decRPos, decWPos, decLeft;
 };
 
+#if !CRS_AUDIO_DRIVER_LIBRETRO
 SDL_Mutex* soundLock;
+#endif
 
 static void (*timer_cb)();
+#if !CRS_AUDIO_DRIVER_LIBRETRO
 static SDL_AudioStream* stream;
+#endif
+static int callback_timer = 192;
 static struct SPU_Voice voices[VOICE_COUNT];
 static u16 ram[(2 * 1024 * 1024) >> 1];
 static s16 adpcm_coefs[5][2] = {
@@ -311,13 +318,13 @@ void SPU_VoiceStart(int vnum, u32 start_addr) {
     v->nax = (v->nax + 1) & 0xfffff;
 }
 
+#if !CRS_AUDIO_DRIVER_LIBRETRO
 void SPU_SDL_CB(void* user, SDL_AudioStream* stream, int additional_amount, int total_amount) {
     u32 samples_per_channel = (additional_amount / sizeof(s16)) >> 1;
     static s16 outbuf[4096] = {};
 
     // We need to run the eml callbaack at 250hz
     // 48000 / 250 = 192
-    static int cb_timer = 192;
 
     // TODO consider redesigning this whole system, emlshim and spu should probably run
     // on the same thread, no locks would be needed in the SDL audio callback path
@@ -330,10 +337,10 @@ void SPU_SDL_CB(void* user, SDL_AudioStream* stream, int additional_amount, int 
             SPU_Tick(p);
             p += 2;
 
-            cb_timer--;
-            if (!cb_timer) {
+            callback_timer--;
+            if (!callback_timer) {
                 timer_cb();
-                cb_timer = 192;
+                callback_timer = 192;
             }
         }
 
@@ -343,18 +350,22 @@ void SPU_SDL_CB(void* user, SDL_AudioStream* stream, int additional_amount, int 
 
     SDL_UnlockMutex(soundLock);
 }
+#endif
 
 static void nullcb() {}
 
 void SPU_Init(void (*cb)()) {
-    SDL_AudioSpec spec;
-
     timer_cb = cb;
     if (!cb) {
         timer_cb = nullcb;
     }
 
     memset(voices, 0, sizeof(voices));
+#if CRS_AUDIO_DRIVER_LIBRETRO
+    callback_timer = 192;
+    return;
+#else
+    SDL_AudioSpec spec;
     soundLock = SDL_CreateMutex();
 
     spec.channels = 2;
@@ -367,14 +378,39 @@ void SPU_Init(void (*cb)()) {
     }
 
     SDL_ResumeAudioStreamDevice(stream);
+#endif
+}
+
+void SPU_RenderSamples(s16* output, unsigned frames) {
+#if !CRS_AUDIO_DRIVER_LIBRETRO
+    SDL_LockMutex(soundLock);
+#endif
+    for (unsigned i = 0; i < frames; i++) {
+        SPU_Tick(output + i * 2);
+        if (--callback_timer == 0) { timer_cb(); callback_timer = 192; }
+    }
+#if !CRS_AUDIO_DRIVER_LIBRETRO
+    SDL_UnlockMutex(soundLock);
+#endif
+}
+
+void SPU_Shutdown(void) {
+#if !CRS_AUDIO_DRIVER_LIBRETRO
+    if (stream) { SDL_DestroyAudioStream(stream); stream = NULL; }
+    if (soundLock) { SDL_DestroyMutex(soundLock); soundLock = NULL; }
+#endif
 }
 
 void SPU_Upload(u32 dst, void* src, u32 size) {
+#if !CRS_AUDIO_DRIVER_LIBRETRO
     SDL_LockMutex(soundLock);
+#endif
 
     memcpy(&ram[dst >> 1], src, size);
 
+#if !CRS_AUDIO_DRIVER_LIBRETRO
     SDL_UnlockMutex(soundLock);
+#endif
 }
 
 void SPU_Tick(s16* output) {

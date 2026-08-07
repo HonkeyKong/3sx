@@ -104,3 +104,10 @@ License MIT license, as provided by Omar Cornut
 
 Copyright:
 - Copyright (C) Omar Cornut.
+
+libretro API
+------------
+Upstream: https://github.com/libretro/RetroArch/blob/master/libretro-common/include/libretro.h
+
+The libretro API declarations are released to the public domain. 3SX vendors
+the ABI declarations needed by its core frontend in src/libretro/.

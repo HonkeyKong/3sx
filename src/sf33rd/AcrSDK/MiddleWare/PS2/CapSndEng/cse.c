@@ -7,6 +7,7 @@
 #include "sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.h"
 
 #include <assert.h>
+#include <stdarg.h>
 #include <stdio.h>
 
 static CSE_SYSWORK cseSysWork __attribute__((aligned(16)));
@@ -57,6 +58,8 @@ s32 cseTsbRequest(u16 bank, u16 code, s32 NumArgSets, ...) {
             rtpc[cmd] += prm;
         }
     }
+
+    va_end(vlist);
 
     return mlTsbRequest(bank, code, rtpc);
 }

@@ -27,6 +27,7 @@ s32 flHeight;
 u32 flSystemRenderOperation;
 FL_FMS flFMS;
 s32 flVramStaticNum;
+static void* system_work_memory;
 
 // forward decls
 static s32 system_work_init();
@@ -48,7 +49,7 @@ static s32 system_work_init() {
     void* temp;
 
     SDL_zero(flPs2State);
-    temp = malloc(0x1800000);
+    temp = system_work_memory = malloc(0x1800000);
 
     if (temp == NULL) {
         return 0;
@@ -60,6 +61,11 @@ static s32 system_work_init() {
     mflInit(temp, system_memory_size, 0x40);
 
     return 1;
+}
+
+void flShutdown(void) {
+    free(system_work_memory);
+    system_work_memory = NULL;
 }
 
 s32 flFlip(u32 flag) {

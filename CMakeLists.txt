@@ -17,6 +17,9 @@ endif()
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
+option(3SX_BUILD_STANDALONE "Build the SDL3 standalone application" ON)
+option(3SX_BUILD_LIBRETRO "Build the libretro shared core" OFF)
+option(3SX_LIBRETRO_INTERNAL_NETPLAY "Build internal netplay into the libretro core" OFF)
 
 if(NOT PSP)
     option(THREESX_STATCHECK "Build with replay statcheck support" OFF)
@@ -40,6 +43,18 @@ include_directories(
 
 file(GLOB_RECURSE GAME_SRC CONFIGURE_DEPENDS src/*.c)
 
+# Dependency roots are shared by both frontends.
+set(THIRD_PARTY_DIR "${CMAKE_SOURCE_DIR}/third_party")
+set(SDL3_ROOT          "${THIRD_PARTY_DIR}/sdl3/build")
+set(MINIZIP_NG_ROOT    "${THIRD_PARTY_DIR}/minizip-ng/build")
+find_package(ZLIB REQUIRED)
+if(EXISTS "${SDL3_ROOT}/lib/libSDL3.so" OR EXISTS "${SDL3_ROOT}/lib/libSDL3.0.dylib" OR EXISTS "${SDL3_ROOT}/lib/libSDL3.dll.a")
+    set(THREESX_USE_BUNDLED_SDL ON)
+else()
+    find_library(THREESX_SDL3_LIBRARY NAMES SDL3 REQUIRED)
+endif()
+
+if(3SX_BUILD_STANDALONE)
 add_executable(3sx MACOSX_BUNDLE
     ${GAME_SRC}
 )
@@ -110,6 +125,7 @@ if(CMAKE_C_COMPILER_ID STREQUAL "Clang" OR CMAKE_C_COMPILER_ID STREQUAL "AppleCl
     )
 elseif(CMAKE_C_COMPILER_ID STREQUAL "GNU")
     set(DISABLED_WARNINGS
+        -fpermissive
         -Wno-unused-but-set-variable
         -Wno-pointer-sign
         -Wno-parentheses
@@ -399,4 +415,75 @@ else()
     endif()
 
     include(CPack)
+endif()
+endif()
+
+if(3SX_BUILD_LIBRETRO)
+    set(LIBRETRO_SRC ${GAME_SRC})
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/platform/app/(sdl|psp)/")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/platform/input/(sdl|statcheck)/")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/platform/netplay/")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/platform/video/(opengl|psp|sdl_generic|sdl_gpu)/")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/port/sdl/")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/imgui/")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/test/")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/args.c$")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/argparse/")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/port/config/keymap\.c$")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/port/sound/(adx|adx_decoder)\.c$")
+    list(FILTER LIBRETRO_SRC EXCLUDE REGEX "/arcade/(arcade_char_data|cps3_decrypt|rom_load)\\.c$")
+
+    add_library(3sx_libretro SHARED ${LIBRETRO_SRC})
+    target_sources(3sx_libretro PRIVATE src/platform/video/opengl/glad/glad.c)
+    target_include_directories(3sx_libretro PRIVATE
+        ${PROJECT_SOURCE_DIR}/src
+        ${PROJECT_SOURCE_DIR}/src/sdk
+        ${SDL3_ROOT}/include
+        ${MINIZIP_NG_ROOT}/include
+    )
+    target_compile_definitions(3sx_libretro PRIVATE
+        CRS_APP_DRIVER_LIBRETRO
+        CRS_VIDEO_DRIVER_LIBRETRO
+        CRS_INPUT_DRIVER_LIBRETRO
+        CRS_AUDIO_DRIVER_LIBRETRO
+        SOUND_ENABLED
+    )
+    target_compile_options(3sx_libretro PRIVATE
+        -Wall -fno-strict-aliasing ${DISABLED_WARNINGS}
+        $<$<AND:$<COMPILE_LANGUAGE:CXX>,$<CXX_COMPILER_ID:GNU>>:-fpermissive>
+        $<$<C_COMPILER_ID:GNU>:-Wno-incompatible-pointer-types>
+        $<$<C_COMPILER_ID:GNU>:-Wno-discarded-qualifiers>
+        -Wno-unused-variable -Wno-unused-function
+    )
+    target_link_libraries(3sx_libretro PRIVATE
+        m ZLIB::ZLIB
+    )
+    if(APPLE)
+        if(THREESX_USE_BUNDLED_SDL)
+            target_link_libraries(3sx_libretro PRIVATE ${SDL3_ROOT}/lib/libSDL3.0.dylib)
+        else()
+            target_link_libraries(3sx_libretro PRIVATE ${THREESX_SDL3_LIBRARY})
+        endif()
+        target_link_libraries(3sx_libretro PRIVATE iconv)
+    elseif(WIN32)
+        if(THREESX_USE_BUNDLED_SDL)
+            target_link_libraries(3sx_libretro PRIVATE ${SDL3_ROOT}/lib/libSDL3.dll.a)
+        else()
+            target_link_libraries(3sx_libretro PRIVATE ${THREESX_SDL3_LIBRARY})
+        endif()
+        target_link_libraries(3sx_libretro PRIVATE iconv bcrypt dbghelp)
+    else()
+        if(THREESX_USE_BUNDLED_SDL)
+            target_link_libraries(3sx_libretro PRIVATE ${SDL3_ROOT}/lib/libSDL3.so)
+        else()
+            target_link_libraries(3sx_libretro PRIVATE ${THREESX_SDL3_LIBRARY})
+        endif()
+    endif()
+    set_target_properties(3sx_libretro PROPERTIES
+        PREFIX ""
+        OUTPUT_NAME "3sx_libretro"
+        POSITION_INDEPENDENT_CODE ON
+        C_VISIBILITY_PRESET hidden
+        VISIBILITY_INLINES_HIDDEN ON
+    )
 endif()

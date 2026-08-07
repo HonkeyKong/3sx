@@ -9,11 +9,12 @@
 #define ADX_BLOCK_SIZE 18
 #define ADX_SAMPLES_PER_BLOCK ((ADX_BLOCK_SIZE - 2) * 8 / ADX_SAMPLE_BITDEPTH)
 
-typedef enum ADXEncoding : Uint8 {
+typedef Uint8 ADXEncoding;
+enum {
     ADX_ENCODING_PRESET = 2,
     ADX_ENCODING_STANDARD = 3,
     ADX_ENCODING_EXPONENTIAL = 4,
-} ADXEncoding;
+};
 
 typedef struct ADXHeader {
     Uint32 copyright_offset;

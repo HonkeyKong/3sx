@@ -24,14 +24,14 @@
 #include "sf33rd/Source/Game/rendering/mtrans.h"
 #include "sf33rd/Source/Game/rendering/texcash.h"
 #include "sf33rd/Source/Game/sound/sound3rd.h"
+#include "port/sound/spu.h"
+#include "port/sound/adx.h"
 #include "sf33rd/Source/Game/stage/bg.h"
 #include "sf33rd/Source/Game/system/ramcnt.h"
 #include "sf33rd/Source/Game/system/sys_sub.h"
 #include "sf33rd/Source/Game/system/sys_sub2.h"
 #include "sf33rd/Source/Game/system/work_sys.h"
 #include "structs.h"
-
-#include <SDL3/SDL.h>
 
 #include <memory.h>
 #include <stdbool.h>
@@ -220,6 +220,13 @@ void Main_FinishFrame() {
     BGM_Server();
 }
 
+void Main_Shutdown() {
+    ADX_Exit();
+    SPU_Shutdown();
+    flPADDestroy();
+    flShutdown();
+}
+
 // Tasks
 
 void cpReadyTask(TaskID num, void* func_adrs) {
@@ -232,5 +239,5 @@ void cpReadyTask(TaskID num, void* func_adrs) {
 }
 
 void cpExitTask(TaskID num) {
-    SDL_zero(task[num]);
+    memset(&task[num], 0, sizeof(task[num]));
 }

@@ -2,6 +2,9 @@
 #include "port/paths.h"
 
 #include <SDL3/SDL.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/stat.h>
 
 #if CHECKSUM
 #include "utils/sha256.h"
@@ -15,21 +18,20 @@
 
 static const char* afs_path = NULL;
 
+void Resources_SetAFSPath(const char* path) { afs_path = path; }
+void Resources_Reset() { afs_path = NULL; }
+
 static bool file_exists(const char* path) {
-    SDL_PathInfo path_info;
-    SDL_GetPathInfo(path, &path_info);
-    return path_info.type == SDL_PATHTYPE_FILE;
+    struct stat info;
+    return stat(path, &info) == 0 && S_ISREG(info.st_mode);
 }
 
 char* Resources_GetPath(const char* file_path) {
     const char* base = Paths_GetPrefPath();
-    char* full_path = NULL;
-
-    if (file_path == NULL) {
-        SDL_asprintf(&full_path, "%sresources/", base);
-    } else {
-        SDL_asprintf(&full_path, "%sresources/%s", base, file_path);
-    }
+    const char* suffix = file_path == NULL ? "" : file_path;
+    const size_t size = snprintf(NULL, 0, "%sresources/%s", base, suffix) + 1;
+    char* full_path = malloc(size);
+    snprintf(full_path, size, "%sresources/%s", base, suffix);
 
     return full_path;
 }

@@ -19,7 +19,7 @@
         https://glad.dav1d.de/#profile=core&language=c&specification=gl&loader=on&api=gl%3D3.3
 */
 
-#if CRS_VIDEO_DRIVER_OPENGL
+#if CRS_VIDEO_DRIVER_OPENGL || CRS_VIDEO_DRIVER_LIBRETRO
 
 #include <stdio.h>
 #include <stdlib.h>

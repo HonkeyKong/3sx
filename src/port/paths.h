@@ -7,5 +7,7 @@
 const char* Paths_GetPrefPath();
 
 const char* Paths_GetBasePath();
+void Paths_SetOverrides(const char* pref_path, const char* base_path);
+void Paths_ResetOverrides();
 
 #endif

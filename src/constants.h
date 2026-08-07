@@ -35,7 +35,8 @@ typedef enum Character {
 #else
 #define NUM_CHARS 20
 
-typedef enum Character : uint16_t {
+typedef uint16_t Character;
+enum {
     CHAR_GILL = 0,
     CHAR_ALEX = 1,
     CHAR_RYU = 2,
@@ -56,16 +57,17 @@ typedef enum Character : uint16_t {
     CHAR_Q = 17,
     CHAR_TWELVE = 18,
     CHAR_REMY = 19,
-} Character;
+};
 #endif
 
 #define CHAR_3SX_TO_ARCADE(c) ((c) > CHAR_AKUMA ? (c) + 1 : (c))
 #define CHAR_ARCADE_TO_3SX(c) ((c) > CHAR_AKUMA ? (c) - 1 : (c))
 
-typedef enum JumpDir : uint8_t {
+typedef uint8_t JumpDir;
+enum {
     JUMP_DIR_NEUTRAL = 0,
     JUMP_DIR_FORWARD = 1,
     JUMP_DIR_BACKWARD = 2,
-} JumpDir;
+};
 
 #endif

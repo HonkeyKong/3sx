@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 
-#include <SDL3/SDL.h>
+#include <stdint.h>
 
 typedef struct Input_ButtonState {
     bool south;
@@ -16,16 +16,16 @@ typedef struct Input_ButtonState {
     bool right_stick;
     bool left_shoulder;
     bool right_shoulder;
-    Sint16 left_trigger;
-    Sint16 right_trigger;
+    int16_t left_trigger;
+    int16_t right_trigger;
     bool dpad_up;
     bool dpad_down;
     bool dpad_left;
     bool dpad_right;
-    Sint16 left_stick_x;
-    Sint16 left_stick_y;
-    Sint16 right_stick_x;
-    Sint16 right_stick_y;
+    int16_t left_stick_x;
+    int16_t left_stick_y;
+    int16_t right_stick_x;
+    int16_t right_stick_y;
 } Input_ButtonState;
 
 typedef enum Input_PadType {
@@ -38,6 +38,6 @@ typedef enum Input_PadType {
 bool Input_IsGamepadConnected(int id);
 void Input_GetButtonState(int id, Input_ButtonState* state);
 Input_PadType Input_GetPadType(int id);
-void Input_RumblePad(int id, bool low_freq_enabled, Uint8 high_freq_rumble);
+void Input_RumblePad(int id, bool low_freq_enabled, uint8_t high_freq_rumble);
 
 #endif

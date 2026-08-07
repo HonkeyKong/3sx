@@ -46,6 +46,20 @@ To track progress towards version 1.0 check our [1.0 milestone](https://github.c
 
 All documentation (including the build guide) can be found in [docs](docs) folder.
 
+## Libretro core
+
+3SX can also be built as a libretro shared core. It accepts a legally obtained
+`SF33RD.AFS` directly; game data is never bundled or downloaded.
+
+```bash
+cmake -S . -B build-libretro -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+  -D3SX_BUILD_LIBRETRO=ON -D3SX_BUILD_STANDALONE=OFF
+cmake --build build-libretro --parallel
+```
+
+The output follows libretro naming (`3sx_libretro.so`, `.dll`, or `.dylib`).
+See [the port notes](docs/libretro-port.md) for controls and current limitations.
+
 ## Community
 
 Join `Crowded Street` server on Discord to discuss the project, report bugs or share your ideas!

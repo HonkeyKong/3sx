@@ -9,6 +9,8 @@ char* Resources_GetPath(const char* file_path);
 
 const char* Resources_GetAFSPath();
 bool Resources_Check();
+void Resources_SetAFSPath(const char* path);
+void Resources_Reset();
 
 // FIXME: Extract resource copying flow from here
 #if CRS_APP_DRIVER_SDL
