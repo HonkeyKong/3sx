@@ -437,6 +437,7 @@ if(3SX_BUILD_LIBRETRO)
 
     add_library(3sx_libretro SHARED ${LIBRETRO_SRC})
     target_sources(3sx_libretro PRIVATE src/platform/video/opengl/glad/glad.c)
+    target_sources(3sx_libretro PRIVATE src/platform/netplay/game_state.c)
     target_include_directories(3sx_libretro BEFORE PRIVATE
         ${PROJECT_SOURCE_DIR}/src/platform/app/libretro/compat
         ${PROJECT_SOURCE_DIR}/src

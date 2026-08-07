@@ -80,8 +80,21 @@ advertised. No `RETRO_MEMORY_SAVE_RAM` or `RETRO_MEMORY_SYSTEM_RAM` is exposed:
 no stable safe contiguous region is identified. Configuration is the only
 confirmed routed persistent data.
 
-Save states are deliberately unsupported: serialize size is zero and serialize/
-unserialize return false. This version is not ready for frontend rollback.
+Experimental fight-only rollback states are exposed through the standard
+libretro serialize/unserialize API. Serialization returns false outside active
+gameplay. The versioned format contains same-process pointers and is intended
+for short-lived rollback buffers, not persistent or cross-version save files.
+
+Peer checksums must use the optional export
+`uint32_t retro_get_state_hash(const void *data, size_t size)` instead of hashing
+serialized bytes directly. It canonicalizes known pointers so ASLR does not
+create false mismatches.
+
+The `3sx_start_mode` core option defaults to `Normal`. Selecting `Online Only`
+skips the attract/menu flow once the menu task is initialized and enters the
+two-human-player character-select flow. This selects the game's network-versus
+rules but does not start an internal networking backend; the frontend remains
+responsible for exchanging inputs and rollback states.
 
 ## Building
 
@@ -113,12 +126,13 @@ repeated reload tests are recommended.
 ## Known limitations and next steps
 
 - ADX music is not mixed into libretro output; effects audio is.
-- The CPU rasterizer needs visual comparison for skewed primitives and PS2
+- The GLES renderer needs visual comparison for skewed primitives and PS2
   alpha/color edge cases.
-- ISO, no-content, core options, rumble, save memory, and save states are absent.
+- ISO, no-content, rumble, save memory, and persistent save states
+  are absent.
 - Only Linux x86_64 was built. Windows, macOS, and AArch64 are unvalidated.
 - Valid-content video/audio and reload testing was not possible without game data.
 
-For rollback, inventory mutable globals/arenas, make pointers relocatable or
-rebuildable, serialize task/PRNG/SPU/ADX state, add deterministic hashes, and
-test save/load replays at arbitrary frames before exposing serialization.
+Rollback state currently mirrors the existing GekkoNet gameplay/effect state and
+adds the interrupt timer. SPU state, allocator arenas, streaming transitions,
+and texture-cache transitions still need coverage and deterministic replay tests.

@@ -15,6 +15,8 @@
 #define RETRO_ENVIRONMENT_GET_SYSTEM_DIRECTORY 9
 #define RETRO_ENVIRONMENT_SET_PIXEL_FORMAT 10
 #define RETRO_ENVIRONMENT_SET_HW_RENDER 14
+#define RETRO_ENVIRONMENT_GET_VARIABLE 15
+#define RETRO_ENVIRONMENT_SET_VARIABLES 16
 #define RETRO_ENVIRONMENT_SET_SUPPORT_NO_GAME 18
 #define RETRO_ENVIRONMENT_GET_LOG_INTERFACE 27
 #define RETRO_ENVIRONMENT_GET_SAVE_DIRECTORY 31
@@ -44,6 +46,7 @@ struct retro_game_geometry { unsigned base_width,base_height,max_width,max_heigh
 struct retro_system_timing { double fps,sample_rate; };
 struct retro_system_av_info { struct retro_game_geometry geometry; struct retro_system_timing timing; };
 struct retro_message { const char *msg; unsigned frames; };
+struct retro_variable { const char *key; const char *value; };
 struct retro_log_callback { void (*log)(int,const char*,...); };
 struct retro_controller_description { const char *desc; unsigned id; };
 struct retro_controller_info { const struct retro_controller_description *types; unsigned num_types; };
