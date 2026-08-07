@@ -48,16 +48,18 @@ set(THIRD_PARTY_DIR "${CMAKE_SOURCE_DIR}/third_party")
 set(SDL3_ROOT          "${THIRD_PARTY_DIR}/sdl3/build")
 set(MINIZIP_NG_ROOT    "${THIRD_PARTY_DIR}/minizip-ng/build")
 find_package(ZLIB REQUIRED)
-if(EXISTS "${SDL3_ROOT}/lib/libSDL3.so" OR EXISTS "${SDL3_ROOT}/lib/libSDL3.0.dylib" OR EXISTS "${SDL3_ROOT}/lib/libSDL3.dll.a")
-    set(THREESX_USE_BUNDLED_SDL ON)
-else()
-    find_library(THREESX_SDL3_LIBRARY NAMES SDL3 REQUIRED)
+if(3SX_BUILD_STANDALONE)
+    if(EXISTS "${SDL3_ROOT}/lib/libSDL3.so" OR EXISTS "${SDL3_ROOT}/lib/libSDL3.0.dylib" OR EXISTS "${SDL3_ROOT}/lib/libSDL3.dll.a")
+        set(THREESX_USE_BUNDLED_SDL ON)
+    else()
+        find_library(THREESX_SDL3_LIBRARY NAMES SDL3 REQUIRED)
+    endif()
 endif()
 
 if(3SX_BUILD_STANDALONE)
-add_executable(3sx MACOSX_BUNDLE
-    ${GAME_SRC}
-)
+set(STANDALONE_SRC ${GAME_SRC})
+list(FILTER STANDALONE_SRC EXCLUDE REGEX "/platform/(app|input|video)/libretro/")
+add_executable(3sx MACOSX_BUNDLE ${STANDALONE_SRC})
 
 if(NOT PSP)
     target_sources(3sx PRIVATE
@@ -435,10 +437,10 @@ if(3SX_BUILD_LIBRETRO)
 
     add_library(3sx_libretro SHARED ${LIBRETRO_SRC})
     target_sources(3sx_libretro PRIVATE src/platform/video/opengl/glad/glad.c)
-    target_include_directories(3sx_libretro PRIVATE
+    target_include_directories(3sx_libretro BEFORE PRIVATE
+        ${PROJECT_SOURCE_DIR}/src/platform/app/libretro/compat
         ${PROJECT_SOURCE_DIR}/src
         ${PROJECT_SOURCE_DIR}/src/sdk
-        ${SDL3_ROOT}/include
         ${MINIZIP_NG_ROOT}/include
     )
     target_compile_definitions(3sx_libretro PRIVATE
@@ -459,25 +461,9 @@ if(3SX_BUILD_LIBRETRO)
         m ZLIB::ZLIB
     )
     if(APPLE)
-        if(THREESX_USE_BUNDLED_SDL)
-            target_link_libraries(3sx_libretro PRIVATE ${SDL3_ROOT}/lib/libSDL3.0.dylib)
-        else()
-            target_link_libraries(3sx_libretro PRIVATE ${THREESX_SDL3_LIBRARY})
-        endif()
         target_link_libraries(3sx_libretro PRIVATE iconv)
     elseif(WIN32)
-        if(THREESX_USE_BUNDLED_SDL)
-            target_link_libraries(3sx_libretro PRIVATE ${SDL3_ROOT}/lib/libSDL3.dll.a)
-        else()
-            target_link_libraries(3sx_libretro PRIVATE ${THREESX_SDL3_LIBRARY})
-        endif()
         target_link_libraries(3sx_libretro PRIVATE iconv bcrypt dbghelp)
-    else()
-        if(THREESX_USE_BUNDLED_SDL)
-            target_link_libraries(3sx_libretro PRIVATE ${SDL3_ROOT}/lib/libSDL3.so)
-        else()
-            target_link_libraries(3sx_libretro PRIVATE ${THREESX_SDL3_LIBRARY})
-        endif()
     endif()
     set_target_properties(3sx_libretro PROPERTIES
         PREFIX ""
