@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.24)
 project(3sx LANGUAGES C CXX)
 
+include(CTest)
+
 include(${PROJECT_SOURCE_DIR}/cmake/imgui_sources.cmake)
 
 set(THREESX_CONFIGURATIONS Debug Release RelWithDebInfo MinSizeRel)
@@ -9,6 +11,25 @@ if(THREESX_IS_MULTI_CONFIG)
     set(CMAKE_CONFIGURATION_TYPES "${THREESX_CONFIGURATIONS}" CACHE STRING "Available build types" FORCE)
 else()
     set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "${THREESX_CONFIGURATIONS}")
+endif()
+
+if(BUILD_TESTING AND NOT CMAKE_CROSSCOMPILING)
+    add_executable(input_history_determinism_test
+        tests/input_history_determinism_test.c
+        src/core/input_history.c
+        src/core/rollback_state.c
+    )
+    target_include_directories(input_history_determinism_test PRIVATE ${PROJECT_SOURCE_DIR}/src)
+    target_compile_options(input_history_determinism_test PRIVATE -ffunction-sections)
+    target_link_options(input_history_determinism_test PRIVATE -Wl,--gc-sections)
+    add_test(NAME input_history_determinism COMMAND input_history_determinism_test)
+
+    add_executable(logging_callback_test
+        tests/logging_callback_test.c
+        src/port/utils.c
+    )
+    target_include_directories(logging_callback_test PRIVATE ${PROJECT_SOURCE_DIR}/src)
+    add_test(NAME logging_callback COMMAND logging_callback_test)
 endif()
 
 # ======================================

@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG -Wl,--dependency-file=CMakeFiles/logging_callback_test.dir/link.d CMakeFiles/logging_callback_test.dir/tests/logging_callback_test.c.o CMakeFiles/logging_callback_test.dir/src/port/utils.c.o -o logging_callback_test

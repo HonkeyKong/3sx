@@ -1,0 +1,34 @@
+Start testing: Aug 19 08:58 CDT
+----------------------------------------------------------
+1/2 Testing: input_history_determinism
+1/2 Test: input_history_determinism
+Command: "/home/ryan/Code/Personal/3sx/build-libretro/input_history_determinism_test"
+Directory: /home/ryan/Code/Personal/3sx/build-libretro
+"input_history_determinism" start time: Aug 19 08:58 CDT
+Output:
+----------------------------------------------------------
+input history replay deterministic: 240 frames x 5 restore cycles; rollback state size: 476424 bytes
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"input_history_determinism" end time: Aug 19 08:58 CDT
+"input_history_determinism" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: logging_callback
+2/2 Test: logging_callback
+Command: "/home/ryan/Code/Personal/3sx/build-libretro/logging_callback_test"
+Directory: /home/ryan/Code/Personal/3sx/build-libretro
+"logging_callback" start time: Aug 19 08:58 CDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"logging_callback" end time: Aug 19 08:58 CDT
+"logging_callback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 19 08:58 CDT

@@ -5,5 +5,6 @@
 #include "types.h"
 
 void Init_Task(struct _TASK* task_ptr);
+void Init_Task_SkipOpening(void);
 
 #endif

@@ -1,5 +1,6 @@
 #include "port/io/afs.h"
 #include "common.h"
+#include "port/paths.h"
 
 #include "stb/stb_ds.h"
 #include <SDL3/SDL.h>
@@ -18,6 +19,7 @@ typedef struct AFSEntry {
     Uint32 offset;
     Uint32 size;
     char name[AFS_MAX_NAME_LENGTH];
+    bool loaded;
 } AFSEntry;
 
 typedef struct AFS {
@@ -38,6 +40,7 @@ typedef struct ReadRequest {
 static AFS afs = { 0 };
 static ReadRequest* requests = NULL;
 static SDL_IOStream* stream = NULL;
+static SDL_IOStream* log_stream = NULL;
 static size_t _read_chunk_size = 0;
 
 static void _log(const char* fmt, ...) {
@@ -46,10 +49,97 @@ static void _log(const char* fmt, ...) {
     va_start(args, fmt);
 
     int len = SDL_snprintf(buffer, sizeof(buffer), "[AFS] ");
-    SDL_vsnprintf(buffer + len, sizeof(buffer) - len, fmt, args);
-    SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_DEBUG, "%s", buffer);
+    const int message_length = SDL_vsnprintf(buffer + len, sizeof(buffer) - len, fmt, args);
+
+    if (log_stream != NULL && message_length >= 0) {
+        const size_t length = SDL_min((size_t)(len + message_length), sizeof(buffer) - 1);
+        SDL_WriteIO(log_stream, buffer, length);
+        SDL_WriteIO(log_stream, "\n", 1);
+    }
 
     va_end(args);
+}
+
+static void log_usage_entry(const char* status, size_t file_num) {
+    const AFSEntry* entry = &afs.entries[file_num];
+    _log("[AFS_USAGE] %s index=%zu size=%u name=\"%.*s\"", status, file_num, entry->size,
+         AFS_MAX_NAME_LENGTH, entry->name);
+}
+
+static void mark_entry_loaded(size_t file_num) {
+    AFSEntry* entry = &afs.entries[file_num];
+
+    if (entry->loaded) {
+        return;
+    }
+
+    entry->loaded = true;
+    log_usage_entry("LOADED", file_num);
+}
+
+static void log_usage_report() {
+    size_t loaded_count = 0;
+
+    for (size_t i = 0; i < afs.entry_count; i++) {
+        if (afs.entries[i].loaded) {
+            loaded_count++;
+        }
+    }
+
+    _log("[AFS_USAGE] SUMMARY loaded=%zu unused=%zu total=%u", loaded_count,
+         afs.entry_count - loaded_count, afs.entry_count);
+
+    for (size_t i = 0; i < afs.entry_count; i++) {
+        if (!afs.entries[i].loaded) {
+            log_usage_entry("UNUSED", i);
+        }
+    }
+}
+
+static void write_usage_line(SDL_IOStream* report, const char* status, size_t file_num) {
+    const AFSEntry* entry = &afs.entries[file_num];
+    char line[256];
+    const int length = SDL_snprintf(line, sizeof(line), "%s index=%zu size=%u name=\"%.*s\"\n", status,
+                                    file_num, entry->size, AFS_MAX_NAME_LENGTH, entry->name);
+
+    if (length > 0) {
+        SDL_WriteIO(report, line, SDL_min((size_t)length, sizeof(line) - 1));
+    }
+}
+
+static void write_usage_report() {
+    char report_path[4096];
+    SDL_snprintf(report_path, sizeof(report_path), "%safs_usage.txt", Paths_GetPrefPath());
+
+    SDL_IOStream* report = SDL_IOFromFile(report_path, "w");
+    if (report == NULL) {
+        _log("Could not write usage report to %s", report_path);
+        return;
+    }
+
+    size_t loaded_count = 0;
+    for (size_t i = 0; i < afs.entry_count; i++) {
+        if (afs.entries[i].loaded) {
+            loaded_count++;
+            write_usage_line(report, "LOADED", i);
+        }
+    }
+
+    char summary[128];
+    const int summary_length = SDL_snprintf(summary, sizeof(summary), "SUMMARY loaded=%zu unused=%zu total=%u\n",
+                                            loaded_count, afs.entry_count - loaded_count, afs.entry_count);
+    if (summary_length > 0) {
+        SDL_WriteIO(report, summary, SDL_min((size_t)summary_length, sizeof(summary) - 1));
+    }
+
+    for (size_t i = 0; i < afs.entry_count; i++) {
+        if (!afs.entries[i].loaded) {
+            write_usage_line(report, "UNUSED", i);
+        }
+    }
+
+    SDL_CloseIO(report);
+    _log("Wrote usage report to %s", report_path);
 }
 
 static bool is_valid_attribute_data(Uint32 attributes_offset, Uint32 attributes_size, Sint64 file_size,
@@ -177,10 +267,20 @@ bool AFS_Init(const char* file_path, size_t read_chunk_size) {
         return false;
     }
 
+    char log_path[4096];
+    SDL_snprintf(log_path, sizeof(log_path), "%safs.log", Paths_GetPrefPath());
+    log_stream = SDL_IOFromFile(log_path, "w");
+
     return true;
 }
 
 void AFS_Finish() {
+    log_usage_report();
+    write_usage_report();
+    if (log_stream != NULL) {
+        SDL_CloseIO(log_stream);
+        log_stream = NULL;
+    }
     SDL_CloseIO(stream);
     stream = NULL;
     SDL_free(afs.file_path);
@@ -225,6 +325,7 @@ static void read_into_request(ReadRequest* request, size_t max_read) {
 
     if (request->bytes_to_read == 0) {
         request->state = AFS_READ_STATE_FINISHED;
+        mark_entry_loaded(request->file_num);
     }
 }
 

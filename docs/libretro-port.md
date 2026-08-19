@@ -40,18 +40,24 @@ Input flows `Input_ButtonState` -> `scePad2Read()` -> `tarPADRead()` ->
 `flPADGetALL()` -> `keyConvert()`. Libretro polls once per frame and fills both
 slots.
 
-| Libretro | Game control |
+| SDL-style physical input | Game function |
 |---|---|
 | D-pad | Direction |
-| Y / X / L | Light / medium / heavy punch |
-| B / A / R | Light / medium / heavy kick |
+| A / B / X | X / Y / R |
+| Y / LB / RB | A / B / RT |
 | Start | Start |
-| Select | PS2 Select (service/menu where used) |
+| Back | PS2 Select (service/menu where used) |
+
+In libretro's RetroPad naming, those six physical inputs are B / A / Y / X / L / R.
 
 Effects audio is 48 kHz signed 16-bit stereo. Standalone drives it with an SDL
 audio callback under a mutex; libretro drives it in `retro_run()`. ADX music is
 a separate SDL audio stream in standalone. Device output is disabled in the
 core, so music is currently a known limitation.
+
+Game, SDL-compatibility, and fatal-error logging is routed through the
+frontend-provided libretro log callback when available. Without that interface,
+the core falls back to standard output/error streams.
 
 Standalone resources use SDL's preference path and can extract `SF33RD.AFS`
 from ISO using libiso9660. The core advertises only `afs`, requires a full path,
@@ -80,9 +86,9 @@ advertised. No `RETRO_MEMORY_SAVE_RAM` or `RETRO_MEMORY_SYSTEM_RAM` is exposed:
 no stable safe contiguous region is identified. Configuration is the only
 confirmed routed persistent data.
 
-Experimental fight-only rollback states are exposed through the standard
-libretro serialize/unserialize API. Serialization returns false outside active
-gameplay. The versioned format contains same-process pointers and is intended
+Experimental rollback states are exposed through the standard libretro
+serialize/unserialize API. Outside active gameplay they contain only the input
+history and interrupt timer. The versioned format contains same-process pointers and is intended
 for short-lived rollback buffers, not persistent or cross-version save files.
 
 Peer checksums must use the optional export
@@ -91,10 +97,10 @@ serialized bytes directly. It canonicalizes known pointers so ASLR does not
 create false mismatches.
 
 The `3sx_start_mode` core option defaults to `Normal`. Selecting `Online Only`
-skips the attract/menu flow once the menu task is initialized and enters the
-two-human-player character-select flow. This selects the game's network-versus
-rules but does not start an internal networking backend; the frontend remains
-responsible for exchanging inputs and rollback states.
+skips the warning, opening, title, and attract/menu flow after core initialization and enters the
+arcade-style two-human-player character-select flow. The frontend remains
+responsible for exchanging inputs and rollback states; no internal networking
+backend is started.
 
 ## Building
 
@@ -134,5 +140,8 @@ repeated reload tests are recommended.
 - Valid-content video/audio and reload testing was not possible without game data.
 
 Rollback state currently mirrors the existing GekkoNet gameplay/effect state and
-adds the interrupt timer. SPU state, allocator arenas, streaming transitions,
-and texture-cache transitions still need coverage and deterministic replay tests.
+adds the interrupt timer and input history. Texture-cache state is deliberately
+not embedded: the libretro renderer drops stale deferred draw requests whose MTS
+slot was released across a rollback boundary, allowing the normal resource
+lifecycle to recover without inflating every state. SPU state and in-flight
+streaming transitions still need coverage and deterministic replay tests.

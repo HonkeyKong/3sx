@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ryan/Code/Personal/3sx/build-libretro/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

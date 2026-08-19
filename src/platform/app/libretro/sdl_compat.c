@@ -1,5 +1,6 @@
 #include <SDL3/SDL.h>
 #include "port/paths.h"
+#include "port/utils.h"
 #include <errno.h>
 #include <sys/stat.h>
 
@@ -26,4 +27,4 @@ bool SDL_CreateDirectory(const char*p){return mkdir(p,0755)==0||errno==EEXIST;}
 bool SDL_GetPathInfo(const char*p,SDL_PathInfo*i){struct stat s;if(stat(p,&s))return false;i->type=S_ISREG(s.st_mode)?SDL_PATHTYPE_FILE:0;return true;}
 const char* SDL_GetBasePath(void){return Paths_GetBasePath();}const char* SDL_GetPrefPath(const char*a,const char*b){(void)a;(void)b;return Paths_GetPrefPath();}
 const char* SDL_GetError(void){return error_text;}
-void SDL_Log(const char*fmt,...){va_list ap;va_start(ap,fmt);vfprintf(stderr,fmt,ap);fputc('\n',stderr);va_end(ap);}void SDL_LogMessage(int c,int p,const char*fmt,...){(void)c;(void)p;va_list ap;va_start(ap,fmt);vfprintf(stderr,fmt,ap);fputc('\n',stderr);va_end(ap);}
+void SDL_Log(const char*fmt,...){va_list ap;va_start(ap,fmt);Log_WriteV(LOG_LEVEL_INFO,fmt,ap);va_end(ap);}void SDL_LogMessage(int c,int p,const char*fmt,...){(void)c;va_list ap;va_start(ap,fmt);Log_WriteV(p<=SDL_LOG_PRIORITY_DEBUG?LOG_LEVEL_DEBUG:LOG_LEVEL_INFO,fmt,ap);va_end(ap);}

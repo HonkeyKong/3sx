@@ -1,5 +1,6 @@
 #include "main.h"
 #include "common.h"
+#include "core/input_history.h"
 #if NETPLAY_ENABLED
 #include "platform/netplay/netplay.h"
 #include "platform/netplay/netplay_stress.h"
@@ -170,14 +171,8 @@ void Main_StepFrame() {
 #endif
 
     if ((Play_Mode != 3 && Play_Mode != 1) || (Game_pause != 0x81)) {
-        p1sw_1 = p1sw_0;
-        p2sw_1 = p2sw_0;
-        p3sw_1 = p3sw_0;
-        p4sw_1 = p4sw_0;
-        p1sw_0 = p1sw_buff;
-        p2sw_0 = p2sw_buff;
-        p3sw_0 = p3sw_buff;
-        p4sw_0 = p4sw_buff;
+        const u16 inputs[4] = { p1sw_buff, p2sw_buff, p3sw_buff, p4sw_buff };
+        InputHistory_Advance(inputs);
 
         if ((task[TASK_MENU].condition == 1) && (Mode_Type == MODE_PARRY_TRAINING) && (Play_Mode == 1)) {
             const u16 sw_buff = p2sw_0;

@@ -163,3 +163,9 @@ void Init_Task_End(struct _TASK* task_ptr) {
     cpExitTask(TASK_INIT);
     Forbid_Reset = 0;
 }
+
+void Init_Task_SkipOpening(void) {
+    checkAdxFileLoaded();
+    checkSelObjFileLoaded();
+    Init_Task_End(&task[TASK_INIT]);
+}

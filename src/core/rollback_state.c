@@ -36,21 +36,35 @@ static void canonicalize(RollbackState* state) {
 
 void RollbackState_Save(RollbackState* state) {
     memset(state,0,sizeof(*state)); state->magic=ROLLBACK_STATE_MAGIC; state->version=ROLLBACK_STATE_VERSION; state->total_size=sizeof(*state);
-    state->payload.interrupt_timer=Interrupt_Timer; GameState_Save(&state->payload.game);
+    state->reserved=ROLLBACK_STATE_FULL;
+    state->payload.interrupt_timer=Interrupt_Timer; InputHistory_Save(&state->payload.input_history); GameState_Save(&state->payload.game);
     EffectState* e=&state->payload.effects; memcpy(e->frw,frw,sizeof(frw)); memcpy(e->exec_tm,exec_tm,sizeof(exec_tm));
     memcpy(e->frwque,frwque,sizeof(frwque)); memcpy(e->head_ix,head_ix,sizeof(head_ix)); memcpy(e->tail_ix,tail_ix,sizeof(tail_ix));
     e->frwctr=frwctr; e->frwctr_min=frwctr_min;
 }
 
+void RollbackState_SaveInputOnly(RollbackState* state) {
+    memset(state,0,sizeof(*state)); state->magic=ROLLBACK_STATE_MAGIC; state->version=ROLLBACK_STATE_VERSION; state->total_size=sizeof(*state);
+    state->reserved=ROLLBACK_STATE_INPUT_ONLY; state->payload.interrupt_timer=Interrupt_Timer; InputHistory_Save(&state->payload.input_history);
+}
+
+RollbackStateKind RollbackState_GetKind(const RollbackState* state,size_t size) {
+    if(!state||size!=sizeof(*state)||state->magic!=ROLLBACK_STATE_MAGIC||state->version!=ROLLBACK_STATE_VERSION||state->total_size!=sizeof(*state))return 0;
+    if(state->reserved!=ROLLBACK_STATE_INPUT_ONLY&&state->reserved!=ROLLBACK_STATE_FULL)return 0;
+    return (RollbackStateKind)state->reserved;
+}
+
 bool RollbackState_Load(const RollbackState* state,size_t size) {
-    if(!state||size!=sizeof(*state)||state->magic!=ROLLBACK_STATE_MAGIC||state->version!=ROLLBACK_STATE_VERSION||state->total_size!=sizeof(*state))return false;
-    Interrupt_Timer=state->payload.interrupt_timer; GameState_Load(&state->payload.game); const EffectState*e=&state->payload.effects;
+    const RollbackStateKind kind=RollbackState_GetKind(state,size); if(!kind)return false;
+    Interrupt_Timer=state->payload.interrupt_timer; InputHistory_Load(&state->payload.input_history); if(kind==ROLLBACK_STATE_INPUT_ONLY)return true;
+    GameState_Load(&state->payload.game); const EffectState*e=&state->payload.effects;
     memcpy(frw,e->frw,sizeof(frw)); memcpy(exec_tm,e->exec_tm,sizeof(exec_tm)); memcpy(frwque,e->frwque,sizeof(frwque));
-    memcpy(head_ix,e->head_ix,sizeof(head_ix)); memcpy(tail_ix,e->tail_ix,sizeof(tail_ix)); frwctr=e->frwctr; frwctr_min=e->frwctr_min; return true;
+    memcpy(head_ix,e->head_ix,sizeof(head_ix)); memcpy(tail_ix,e->tail_ix,sizeof(tail_ix)); frwctr=e->frwctr; frwctr_min=e->frwctr_min;
+    return true;
 }
 
 uint32_t RollbackState_Hash(const RollbackState* state,size_t size) {
-    if(!state||size!=sizeof(*state))return 0;
+    if(!RollbackState_GetKind(state,size))return 0;
     RollbackState copy; memcpy(&copy,state,sizeof(copy)); canonicalize(&copy);
     const uint8_t*p=(const uint8_t*)&copy; uint32_t hash=2166136261u; for(size_t i=0;i<sizeof(copy);i++){hash^=p[i];hash*=16777619u;} return hash;
 }

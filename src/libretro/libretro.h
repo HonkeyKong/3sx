@@ -21,6 +21,8 @@
 #define RETRO_ENVIRONMENT_GET_LOG_INTERFACE 27
 #define RETRO_ENVIRONMENT_GET_SAVE_DIRECTORY 31
 #define RETRO_ENVIRONMENT_SET_CONTROLLER_INFO 35
+#define RETRO_ENVIRONMENT_GET_CORE_OPTIONS_VERSION 52
+#define RETRO_ENVIRONMENT_SET_CORE_OPTIONS_V2 67
 #define RETRO_LOG_DEBUG 0
 #define RETRO_LOG_INFO 1
 #define RETRO_LOG_WARN 2
@@ -47,6 +49,18 @@ struct retro_system_timing { double fps,sample_rate; };
 struct retro_system_av_info { struct retro_game_geometry geometry; struct retro_system_timing timing; };
 struct retro_message { const char *msg; unsigned frames; };
 struct retro_variable { const char *key; const char *value; };
+#define RETRO_NUM_CORE_OPTION_VALUES_MAX 128
+struct retro_core_option_value { const char *value; const char *label; };
+struct retro_core_option_v2_category { const char *key,*desc,*info; };
+struct retro_core_option_v2_definition {
+ const char *key,*desc,*desc_categorized,*info,*info_categorized,*category_key;
+ struct retro_core_option_value values[RETRO_NUM_CORE_OPTION_VALUES_MAX];
+ const char *default_value;
+};
+struct retro_core_options_v2 {
+ const struct retro_core_option_v2_category *categories;
+ const struct retro_core_option_v2_definition *definitions;
+};
 struct retro_log_callback { void (*log)(int,const char*,...); };
 struct retro_controller_description { const char *desc; unsigned id; };
 struct retro_controller_info { const struct retro_controller_description *types; unsigned num_types; };

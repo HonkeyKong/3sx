@@ -16,6 +16,8 @@
 #include "sf33rd/Source/Game/stage/bg_data.h"
 #include "sf33rd/Source/Game/system/work_sys.h"
 
+#include <SDL3/SDL.h>
+
 MultiTexture mts[24];
 MTS_OK mts_ok[24];
 WORK dmwk_moji;
@@ -261,7 +263,21 @@ void all_cgps_put_back(WORK* wk) {
 }
 
 void Mtrans_use_trans_mode(WORK* wk, s16 bsy) {
+#if CRS_APP_DRIVER_LIBRETRO
+    if (wk->my_mts < 0 || wk->my_mts >= MULTITEXTURE_MAX) {
+        SDL_Log("Dropping display request for invalid MTS slot %d", wk->my_mts);
+        return;
+    }
+#endif
     if (mts_ok[wk->my_mts].be == 0) {
+#if CRS_APP_DRIVER_LIBRETRO
+        static bool warned_missing_mts[MULTITEXTURE_MAX];
+        if (!warned_missing_mts[wk->my_mts]) {
+            SDL_Log("Dropping stale display request for uninitialized MTS slot %d", wk->my_mts);
+            warned_missing_mts[wk->my_mts] = true;
+        }
+        return;
+#else
         // A display request was received before MTS initialization. MTS number: %d\n
         // Original text: "ＭＴＳの初期化前に表示要求が入りました。ＭＴＳ番号：%d\n"
         // For some reason MWCC (or mwccgap) removes a single byte from the string, resulting in a mismatch.
@@ -271,6 +287,7 @@ void Mtrans_use_trans_mode(WORK* wk, s16 bsy) {
                  "\x81\x46\x25\x64\x0a",
                  wk->my_mts);
         return;
+#endif
     }
 
     // Above No_Trans so a frame that skips drawing lands on the same value.
