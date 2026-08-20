@@ -8,3 +8,5 @@ add_test([=[input_history_determinism]=] "/home/ryan/Code/Personal/3sx/build-lib
 set_tests_properties([=[input_history_determinism]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/ryan/Code/Personal/3sx/CMakeLists.txt;25;add_test;/home/ryan/Code/Personal/3sx/CMakeLists.txt;0;")
 add_test([=[logging_callback]=] "/home/ryan/Code/Personal/3sx/build-libretro/logging_callback_test")
 set_tests_properties([=[logging_callback]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/ryan/Code/Personal/3sx/CMakeLists.txt;32;add_test;/home/ryan/Code/Personal/3sx/CMakeLists.txt;0;")
+add_test([=[online_start]=] "/home/ryan/Code/Personal/3sx/build-libretro/online_start_test")
+set_tests_properties([=[online_start]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/ryan/Code/Personal/3sx/CMakeLists.txt;39;add_test;/home/ryan/Code/Personal/3sx/CMakeLists.txt;0;")

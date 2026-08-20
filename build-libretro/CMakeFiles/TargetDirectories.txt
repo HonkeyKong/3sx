@@ -28,6 +28,7 @@
 /home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles/ContinuousSubmit.dir
 /home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles/input_history_determinism_test.dir
 /home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles/logging_callback_test.dir
+/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles/online_start_test.dir
 /home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles/3sx_libretro.dir
 /home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles/test.dir
 /home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles/edit_cache.dir

@@ -1549,18 +1549,11 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o
 
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o
  /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.c
- /home/ryan/Code/Personal/3sx/src/constants.h
- /home/ryan/Code/Personal/3sx/src/main.h
  /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.h
  /home/ryan/Code/Personal/3sx/src/port/utils.h
  /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plcommon.h
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmd_data.h
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/grade.h
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt.h
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/workuser.h
  /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/init3rd.h
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg.h
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/sys_sub.h
+ /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/menu.h
  /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/work_sys.h
  /home/ryan/Code/Personal/3sx/src/structs.h
  /home/ryan/Code/Personal/3sx/src/types.h
@@ -1569,8 +1562,6 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o
  /usr/include/features.h
  /usr/include/stdc-predef.h
  /usr/include/stdint.h
- /usr/include/string.h
- /usr/include/strings.h
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h
  /usr/include/x86_64-linux-gnu/bits/byteswap.h
  /usr/include/x86_64-linux-gnu/bits/endian.h
@@ -1585,19 +1576,15 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
  /usr/include/x86_64-linux-gnu/bits/time64.h
  /usr/include/x86_64-linux-gnu/bits/timesize.h
  /usr/include/x86_64-linux-gnu/bits/types.h
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h

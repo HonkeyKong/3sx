@@ -25,3 +25,4 @@ dump
 *.AFS
 build-rpi5-libretro-bookworm/
 build-rpi5-libretro/
+build-*/

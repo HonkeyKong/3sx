@@ -30,6 +30,13 @@ if(BUILD_TESTING AND NOT CMAKE_CROSSCOMPILING)
     )
     target_include_directories(logging_callback_test PRIVATE ${PROJECT_SOURCE_DIR}/src)
     add_test(NAME logging_callback COMMAND logging_callback_test)
+
+    add_executable(online_start_test
+        tests/online_start_test.c
+        src/platform/app/libretro/online_start.c
+    )
+    target_include_directories(online_start_test PRIVATE ${PROJECT_SOURCE_DIR}/src)
+    add_test(NAME online_start COMMAND online_start_test)
 endif()
 
 # ======================================

@@ -518,6 +518,19 @@ logging_callback_test/fast:
 .PHONY : logging_callback_test/fast
 
 #=============================================================================
+# Target rules for targets named online_start_test
+
+# Build rule for target.
+online_start_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 online_start_test
+.PHONY : online_start_test
+
+# fast build rule for target.
+online_start_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/online_start_test.dir/build.make CMakeFiles/online_start_test.dir/build
+.PHONY : online_start_test/fast
+
+#=============================================================================
 # Target rules for targets named 3sx_libretro
 
 # Build rule for target.
@@ -973,6 +986,7 @@ src/platform/app/libretro/online_start.o: src/platform/app/libretro/online_start
 
 # target to build an object file
 src/platform/app/libretro/online_start.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/online_start_test.dir/build.make CMakeFiles/online_start_test.dir/src/platform/app/libretro/online_start.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3sx_libretro.dir/build.make CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o
 .PHONY : src/platform/app/libretro/online_start.c.o
 
@@ -981,6 +995,7 @@ src/platform/app/libretro/online_start.i: src/platform/app/libretro/online_start
 
 # target to preprocess a source file
 src/platform/app/libretro/online_start.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/online_start_test.dir/build.make CMakeFiles/online_start_test.dir/src/platform/app/libretro/online_start.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3sx_libretro.dir/build.make CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.i
 .PHONY : src/platform/app/libretro/online_start.c.i
 
@@ -989,6 +1004,7 @@ src/platform/app/libretro/online_start.s: src/platform/app/libretro/online_start
 
 # target to generate assembly for a file
 src/platform/app/libretro/online_start.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/online_start_test.dir/build.make CMakeFiles/online_start_test.dir/src/platform/app/libretro/online_start.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3sx_libretro.dir/build.make CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.s
 .PHONY : src/platform/app/libretro/online_start.c.s
 
@@ -15155,6 +15171,30 @@ tests/logging_callback_test.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logging_callback_test.dir/build.make CMakeFiles/logging_callback_test.dir/tests/logging_callback_test.c.s
 .PHONY : tests/logging_callback_test.c.s
 
+tests/online_start_test.o: tests/online_start_test.c.o
+.PHONY : tests/online_start_test.o
+
+# target to build an object file
+tests/online_start_test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/online_start_test.dir/build.make CMakeFiles/online_start_test.dir/tests/online_start_test.c.o
+.PHONY : tests/online_start_test.c.o
+
+tests/online_start_test.i: tests/online_start_test.c.i
+.PHONY : tests/online_start_test.i
+
+# target to preprocess a source file
+tests/online_start_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/online_start_test.dir/build.make CMakeFiles/online_start_test.dir/tests/online_start_test.c.i
+.PHONY : tests/online_start_test.c.i
+
+tests/online_start_test.s: tests/online_start_test.c.s
+.PHONY : tests/online_start_test.s
+
+# target to generate assembly for a file
+tests/online_start_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/online_start_test.dir/build.make CMakeFiles/online_start_test.dir/tests/online_start_test.c.s
+.PHONY : tests/online_start_test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -15195,6 +15235,7 @@ help:
 	@echo "... 3sx_libretro"
 	@echo "... input_history_determinism_test"
 	@echo "... logging_callback_test"
+	@echo "... online_start_test"
 	@echo "... src/arcade/arcade_balance.o"
 	@echo "... src/arcade/arcade_balance.i"
 	@echo "... src/arcade/arcade_balance.s"
@@ -17022,6 +17063,9 @@ help:
 	@echo "... tests/logging_callback_test.o"
 	@echo "... tests/logging_callback_test.i"
 	@echo "... tests/logging_callback_test.s"
+	@echo "... tests/online_start_test.o"
+	@echo "... tests/online_start_test.i"
+	@echo "... tests/online_start_test.s"
 .PHONY : help
 
 

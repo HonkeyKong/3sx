@@ -458,6 +458,27 @@ void Setup_VS_Mode(struct _TASK* task_ptr) {
     Setup_Training_Difficulty();
 }
 
+void Start_TwoPlayer_Arcade_Select(void) {
+    Next_Title_Sub();
+    Mode_Type = MODE_ARCADE;
+    Present_Mode = 1;
+
+    Clear_Personal_Data(0);
+    Clear_Personal_Data(1);
+    Setup_VS_Mode(&task[TASK_MENU]);
+
+    E_No[0] = 1;
+    E_No[1] = 2;
+    E_No[2] = 2;
+    E_No[3] = 0;
+
+    G_No[0] = 2;
+    G_No[1] = 12;
+    G_No[2] = 1;
+    G_No[3] = 0;
+    cpExitTask(TASK_MENU);
+}
+
 void Menu_in_Sub(struct _TASK* task_ptr) {
     FadeOut(1, 0xFF, 8);
     task_ptr->r_no[2] += 1;

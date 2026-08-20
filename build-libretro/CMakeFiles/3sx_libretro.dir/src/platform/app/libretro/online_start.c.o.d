@@ -48,20 +48,9 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /home/ryan/Code/Personal/3sx/src/types.h \
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/grade.h \
- /home/ryan/Code/Personal/3sx/src/structs.h \
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt.h \
- /home/ryan/Code/Personal/3sx/src/constants.h \
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/workuser.h \
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmd_data.h \
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/init3rd.h \
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg.h \
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/sys_sub.h \
- /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/work_sys.h \
  /home/ryan/Code/Personal/3sx/src/port/utils.h \
- /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
+ /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/init3rd.h \
+ /home/ryan/Code/Personal/3sx/src/structs.h \
+ /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/menu.h \
+ /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/work_sys.h
