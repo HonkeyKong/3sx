@@ -19,6 +19,7 @@
   CMakeFiles/3sx_libretro.dir/src/main.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/adx_stub.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o \
+  CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o \
@@ -674,6 +675,8 @@ CMakeFiles/3sx_libretro.dir/src/main.c.o:
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/adx_stub.c.o:
 
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o:
+
+CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o:
 
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o:
 

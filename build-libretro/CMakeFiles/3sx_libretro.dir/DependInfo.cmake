@@ -26,6 +26,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ryan/Code/Personal/3sx/src/main.c" "CMakeFiles/3sx_libretro.dir/src/main.c.o" "gcc" "CMakeFiles/3sx_libretro.dir/src/main.c.o.d"
   "/home/ryan/Code/Personal/3sx/src/platform/app/libretro/adx_stub.c" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/adx_stub.c.o" "gcc" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/adx_stub.c.o.d"
   "/home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_core.c" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o" "gcc" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o.d"
+  "/home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.c" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o" "gcc" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o.d"
   "/home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.c" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o" "gcc" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o.d"
   "/home/ryan/Code/Personal/3sx/src/platform/app/libretro/sdl_compat.c" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o" "gcc" "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o.d"
   "/home/ryan/Code/Personal/3sx/src/platform/input/libretro/libretro_input.c" "CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o" "gcc" "CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o.d"

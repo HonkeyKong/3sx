@@ -324,10 +324,24 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_core.c -o CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.s
 
+CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o: CMakeFiles/3sx_libretro.dir/flags.make
+CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o: /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.c
+CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o -MF CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o.d -o CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o -c /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.c
+
+CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.c > CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.i
+
+CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.c -o CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.s
+
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o: /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.c
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o -MF CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o.d -o CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o -c /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.c
 
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.i: cmake_force
@@ -341,7 +355,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o: /home/ryan/Code/Personal/3sx/src/platform/app/libretro/sdl_compat.c
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o -MF CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o.d -o CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o -c /home/ryan/Code/Personal/3sx/src/platform/app/libretro/sdl_compat.c
 
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.i: cmake_force
@@ -355,7 +369,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o: /home/ryan/Code/Personal/3sx/src/platform/input/libretro/libretro_input.c
 CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o -MF CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o.d -o CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o -c /home/ryan/Code/Personal/3sx/src/platform/input/libretro/libretro_input.c
 
 CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.i: cmake_force
@@ -369,7 +383,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.o: /home/ryan/Code/Personal/3sx/src/platform/video/libretro/libretro_renderer.c
 CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.o -MF CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.o.d -o CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.o -c /home/ryan/Code/Personal/3sx/src/platform/video/libretro/libretro_renderer.c
 
 CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.i: cmake_force
@@ -383,7 +397,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/video/libretro/libretro_renderer.c.s: c
 CMakeFiles/3sx_libretro.dir/src/port/config/config.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/config/config.c.o: /home/ryan/Code/Personal/3sx/src/port/config/config.c
 CMakeFiles/3sx_libretro.dir/src/port/config/config.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/3sx_libretro.dir/src/port/config/config.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/3sx_libretro.dir/src/port/config/config.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/config/config.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/config/config.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/config/config.c.o -c /home/ryan/Code/Personal/3sx/src/port/config/config.c
 
 CMakeFiles/3sx_libretro.dir/src/port/config/config.c.i: cmake_force
@@ -397,7 +411,7 @@ CMakeFiles/3sx_libretro.dir/src/port/config/config.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.o: /home/ryan/Code/Personal/3sx/src/port/config/config_helpers.c
 CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.o -c /home/ryan/Code/Personal/3sx/src/port/config/config_helpers.c
 
 CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.i: cmake_force
@@ -411,7 +425,7 @@ CMakeFiles/3sx_libretro.dir/src/port/config/config_helpers.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.o: /home/ryan/Code/Personal/3sx/src/port/io/afs.c
 CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.o -c /home/ryan/Code/Personal/3sx/src/port/io/afs.c
 
 CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.i: cmake_force
@@ -425,7 +439,7 @@ CMakeFiles/3sx_libretro.dir/src/port/io/afs.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/port/paths.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/paths.c.o: /home/ryan/Code/Personal/3sx/src/port/paths.c
 CMakeFiles/3sx_libretro.dir/src/port/paths.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/3sx_libretro.dir/src/port/paths.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/3sx_libretro.dir/src/port/paths.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/paths.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/paths.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/paths.c.o -c /home/ryan/Code/Personal/3sx/src/port/paths.c
 
 CMakeFiles/3sx_libretro.dir/src/port/paths.c.i: cmake_force
@@ -439,7 +453,7 @@ CMakeFiles/3sx_libretro.dir/src/port/paths.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/port/resources.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/resources.c.o: /home/ryan/Code/Personal/3sx/src/port/resources.c
 CMakeFiles/3sx_libretro.dir/src/port/resources.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/3sx_libretro.dir/src/port/resources.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/3sx_libretro.dir/src/port/resources.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/resources.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/resources.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/resources.c.o -c /home/ryan/Code/Personal/3sx/src/port/resources.c
 
 CMakeFiles/3sx_libretro.dir/src/port/resources.c.i: cmake_force
@@ -453,7 +467,7 @@ CMakeFiles/3sx_libretro.dir/src/port/resources.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.o: /home/ryan/Code/Personal/3sx/src/port/sdk/sdk_libpad2.c
 CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.o -c /home/ryan/Code/Personal/3sx/src/port/sdk/sdk_libpad2.c
 
 CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.i: cmake_force
@@ -467,7 +481,7 @@ CMakeFiles/3sx_libretro.dir/src/port/sdk/sdk_libpad2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.o: /home/ryan/Code/Personal/3sx/src/port/sound/emlShim.c
 CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.o -c /home/ryan/Code/Personal/3sx/src/port/sound/emlShim.c
 
 CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.i: cmake_force
@@ -481,7 +495,7 @@ CMakeFiles/3sx_libretro.dir/src/port/sound/emlShim.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o: /home/ryan/Code/Personal/3sx/src/port/sound/spu.c
 CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o -c /home/ryan/Code/Personal/3sx/src/port/sound/spu.c
 
 CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.i: cmake_force
@@ -495,7 +509,7 @@ CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/port/utils.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/port/utils.c.o: /home/ryan/Code/Personal/3sx/src/port/utils.c
 CMakeFiles/3sx_libretro.dir/src/port/utils.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/3sx_libretro.dir/src/port/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/3sx_libretro.dir/src/port/utils.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/port/utils.c.o -MF CMakeFiles/3sx_libretro.dir/src/port/utils.c.o.d -o CMakeFiles/3sx_libretro.dir/src/port/utils.c.o -c /home/ryan/Code/Personal/3sx/src/port/utils.c
 
 CMakeFiles/3sx_libretro.dir/src/port/utils.c.i: cmake_force
@@ -509,7 +523,7 @@ CMakeFiles/3sx_libretro.dir/src/port/utils.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.i: cmake_force
@@ -523,7 +537,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/cse.c.s: 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap.c.i: cmake_force
@@ -537,7 +551,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/eflSpuMap
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap.c.i: cmake_force
@@ -551,7 +565,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlMemMap
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd.c.i: cmake_force
@@ -565,7 +579,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlRefPhd
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv.c.i: cmake_force
@@ -579,7 +593,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlSndDrv
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.i: cmake_force
@@ -593,7 +607,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/MiddleWare/PS2/CapSndEng/emlTSB.c.
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/fbms.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/fbms.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.i: cmake_force
@@ -607,7 +621,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/fbms.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/memfound.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/memfound.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.i: cmake_force
@@ -621,7 +635,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memfound.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/memmgr.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/memmgr.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.i: cmake_force
@@ -635,7 +649,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/memmgr.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/mlPAD.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/mlPAD.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.i: cmake_force
@@ -649,7 +663,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plapx.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plapx.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.i: cmake_force
@@ -663,7 +677,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plbmp.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plbmp.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.i: cmake_force
@@ -677,7 +691,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plpic.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plpic.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.i: cmake_force
@@ -691,7 +705,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plpic.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/pltim2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/pltim2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.i: cmake_force
@@ -705,7 +719,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/pltim2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/prilay.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/prilay.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.i: cmake_force
@@ -719,7 +733,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/prilay.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/flPADUSR.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/flPADUSR.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.i: cmake_force
@@ -733,7 +747,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flPADUSR.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/flps2etc.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/flps2etc.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.i: cmake_force
@@ -747,7 +761,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2etc.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/flps2render.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/flps2render.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.i: cmake_force
@@ -761,7 +775,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2render.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/flps2vram.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/flps2vram.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.i: cmake_force
@@ -775,7 +789,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/flps2vram.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/foundaps2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/foundaps2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.i: cmake_force
@@ -789,7 +803,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/ps2PAD.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/ps2/ps2PAD.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.i: cmake_force
@@ -803,7 +817,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/ps2PAD.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Common/MemMan.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Common/MemMan.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.i: cmake_force
@@ -817,7 +831,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/MemMan.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Common/PPGFile.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Common/PPGFile.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.i: cmake_force
@@ -831,7 +845,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGFile.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Common/PPGWork.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Common/PPGWork.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.i: cmake_force
@@ -845,7 +859,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Common/PPGWork.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.i: cmake_force
@@ -859,7 +873,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/Lz77/Lz77Dec.c.s: cmake_f
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Compress/zlibApp.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Compress/zlibApp.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.i: cmake_force
@@ -873,7 +887,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Compress/zlibApp.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/animation/app_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/animation/app_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.i: cmake_force
@@ -887,7 +901,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/app_data.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/animation/appear.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/animation/appear.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.i: cmake_force
@@ -901,7 +915,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/appear.c.s: cmake_f
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/animation/lose_pl.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/animation/lose_pl.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.i: cmake_force
@@ -915,7 +929,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/lose_pl.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/animation/win_pl.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/animation/win_pl.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.i: cmake_force
@@ -929,7 +943,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/animation/win_pl.c.s: cmake_f
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0000.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0000.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.i: cmake_force
@@ -943,7 +957,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0000.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0001.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0001.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.i: cmake_force
@@ -957,7 +971,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0001.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0002.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0002.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.i: cmake_force
@@ -971,7 +985,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0002.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0003.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0003.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.i: cmake_force
@@ -985,7 +999,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0004.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0004.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.i: cmake_force
@@ -999,7 +1013,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0004.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.i: cmake_force
@@ -1013,7 +1027,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.i: cmake_force
@@ -1027,7 +1041,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active01.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.i: cmake_force
@@ -1041,7 +1055,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active02.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.i: cmake_force
@@ -1055,7 +1069,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active03.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active04.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active04.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.i: cmake_force
@@ -1069,7 +1083,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active04.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active05.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active05.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.i: cmake_force
@@ -1083,7 +1097,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active05.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active06.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active06.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.i: cmake_force
@@ -1097,7 +1111,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active06.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active07.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active07.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.i: cmake_force
@@ -1111,7 +1125,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active07.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active08.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active08.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.i: cmake_force
@@ -1125,7 +1139,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active08.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active09.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active09.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.i: cmake_force
@@ -1139,7 +1153,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active09.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active10.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active10.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.i: cmake_force
@@ -1153,7 +1167,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active10.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active11.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active11.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.i: cmake_force
@@ -1167,7 +1181,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active11.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active12.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active12.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.i: cmake_force
@@ -1181,7 +1195,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active12.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active13.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active13.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.i: cmake_force
@@ -1195,7 +1209,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active14.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active14.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.i: cmake_force
@@ -1209,7 +1223,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active14.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active15.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active15.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.i: cmake_force
@@ -1223,7 +1237,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active15.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active16.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active16.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.i: cmake_force
@@ -1237,7 +1251,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active16.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active17.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active17.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.i: cmake_force
@@ -1251,7 +1265,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active17.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active18.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active18.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.i: cmake_force
@@ -1265,7 +1279,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active18.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active19.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active19.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.i: cmake_force
@@ -1279,7 +1293,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active19.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/ck_pass.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/ck_pass.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.i: cmake_force
@@ -1293,7 +1307,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/ck_pass.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/com_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/com_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.i: cmake_force
@@ -1307,7 +1321,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_data.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/com_datu.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/com_datu.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.i: cmake_force
@@ -1321,7 +1335,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_datu.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/com_pl.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/com_pl.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.i: cmake_force
@@ -1335,7 +1349,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_pl.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/com_sub.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/com_sub.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.i: cmake_force
@@ -1349,7 +1363,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/com_sub.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/follow/fl_com00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/follow/fl_com00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.i: cmake_force
@@ -1363,7 +1377,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com00.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/follow/fl_com02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/follow/fl_com02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.i: cmake_force
@@ -1377,7 +1391,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/fl_com02.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/follow/follow02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/follow/follow02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.i: cmake_force
@@ -1391,7 +1405,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/follow/follow02.c.s: cmak
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.i: cmake_force
@@ -1405,7 +1419,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass00.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0000.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0000.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.i: cmake_force
@@ -1419,7 +1433,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0000.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0001.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0001.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.i: cmake_force
@@ -1433,7 +1447,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0001.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0002.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0002.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.i: cmake_force
@@ -1447,7 +1461,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0002.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0003.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0003.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.i: cmake_force
@@ -1461,7 +1475,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass0003.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.i: cmake_force
@@ -1475,7 +1489,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass01.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.i: cmake_force
@@ -1489,7 +1503,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass02.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.i: cmake_force
@@ -1503,7 +1517,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass03.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass04.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass04.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.i: cmake_force
@@ -1517,7 +1531,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass04.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass05.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass05.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.i: cmake_force
@@ -1531,7 +1545,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass05.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass06.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass06.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.i: cmake_force
@@ -1545,7 +1559,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass06.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass07.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass07.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.i: cmake_force
@@ -1559,7 +1573,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass07.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass08.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass08.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.i: cmake_force
@@ -1573,7 +1587,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass08.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass09.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass09.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.i: cmake_force
@@ -1587,7 +1601,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass09.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass10.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass10.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.i: cmake_force
@@ -1601,7 +1615,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass10.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass11.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass11.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.i: cmake_force
@@ -1615,7 +1629,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass12.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass12.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.i: cmake_force
@@ -1629,7 +1643,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass12.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass13.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass13.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.i: cmake_force
@@ -1643,7 +1657,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass13.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass14.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass14.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.i: cmake_force
@@ -1657,7 +1671,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass14.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass15.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass15.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.i: cmake_force
@@ -1671,7 +1685,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass15.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass16.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass16.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.i: cmake_force
@@ -1685,7 +1699,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass16.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass17.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass17.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.i: cmake_force
@@ -1699,7 +1713,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass17.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass18.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass18.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.i: cmake_force
@@ -1713,7 +1727,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass18.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass19.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass19.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.i: cmake_force
@@ -1727,7 +1741,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass19.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.i: cmake_force
@@ -1741,7 +1755,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell00.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.i: cmake_force
@@ -1755,7 +1769,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell01.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.i: cmake_force
@@ -1769,7 +1783,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell03.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell04.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell04.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.i: cmake_force
@@ -1783,7 +1797,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell04.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell05.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell05.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.i: cmake_force
@@ -1797,7 +1811,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell05.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell07.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell07.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.i: cmake_force
@@ -1811,7 +1825,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell07.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell11.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell11.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.i: cmake_force
@@ -1825,7 +1839,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell11.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell12.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell12.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.i: cmake_force
@@ -1839,7 +1853,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell12.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell13.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell13.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.i: cmake_force
@@ -1853,7 +1867,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell13.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell14.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell14.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.i: cmake_force
@@ -1867,7 +1881,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/shell/shell14.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/debug/OBJTEST.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/debug/OBJTEST.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.i: cmake_force
@@ -1881,7 +1895,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OBJTEST.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/debug/OTESTDAT.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/debug/OTESTDAT.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.i: cmake_force
@@ -1895,7 +1909,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/OTESTDAT.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/debug/debug_config.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/debug/debug_config.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.i: cmake_force
@@ -1909,7 +1923,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.i: cmake_force
@@ -1923,7 +1937,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo00.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.i: cmake_force
@@ -1937,7 +1951,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo01.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.i: cmake_force
@@ -1951,7 +1965,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo02.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo_dat.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo_dat.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.i: cmake_force
@@ -1965,7 +1979,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/demo/demo_dat.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.i: cmake_force
@@ -1979,7 +1993,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff00.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.i: cmake_force
@@ -1993,7 +2007,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff01.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.i: cmake_force
@@ -2007,7 +2021,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff02.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.i: cmake_force
@@ -2021,7 +2035,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff03.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff04.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff04.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.i: cmake_force
@@ -2035,7 +2049,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff04.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff05.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff05.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.i: cmake_force
@@ -2049,7 +2063,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff05.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff06.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff06.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.i: cmake_force
@@ -2063,7 +2077,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff06.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff07.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff07.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.i: cmake_force
@@ -2077,7 +2091,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff07.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff08.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff08.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.i: cmake_force
@@ -2091,7 +2105,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff08.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff09.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff09.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.i: cmake_force
@@ -2105,7 +2119,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff09.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff10.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff10.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.i: cmake_force
@@ -2119,7 +2133,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff10.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff11.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff11.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.i: cmake_force
@@ -2133,7 +2147,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff11.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff12.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff12.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.i: cmake_force
@@ -2147,7 +2161,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff12.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff13.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff13.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.i: cmake_force
@@ -2161,7 +2175,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff13.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff14.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff14.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.i: cmake_force
@@ -2175,7 +2189,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff14.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff15.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff15.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.i: cmake_force
@@ -2189,7 +2203,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff15.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff16.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff16.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.i: cmake_force
@@ -2203,7 +2217,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff17.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff17.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.i: cmake_force
@@ -2217,7 +2231,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff17.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff18.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff18.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.i: cmake_force
@@ -2231,7 +2245,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff18.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff19.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff19.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.i: cmake_force
@@ -2245,7 +2259,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff19.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff20.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff20.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.i: cmake_force
@@ -2259,7 +2273,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff20.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff21.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff21.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.i: cmake_force
@@ -2273,7 +2287,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff21.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff22.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff22.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.i: cmake_force
@@ -2287,7 +2301,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff22.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff23.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff23.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.i: cmake_force
@@ -2301,7 +2315,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff23.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff24.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff24.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.i: cmake_force
@@ -2315,7 +2329,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff24.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff25.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff25.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.i: cmake_force
@@ -2329,7 +2343,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff25.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff26.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff26.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.i: cmake_force
@@ -2343,7 +2357,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff26.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff27.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff27.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.i: cmake_force
@@ -2357,7 +2371,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff29.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff29.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.i: cmake_force
@@ -2371,7 +2385,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff29.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff30.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff30.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.i: cmake_force
@@ -2385,7 +2399,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff30.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff31.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff31.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.i: cmake_force
@@ -2399,7 +2413,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff32.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff32.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.i: cmake_force
@@ -2413,7 +2427,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff32.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff33.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff33.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.i: cmake_force
@@ -2427,7 +2441,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff33.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff34.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff34.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.i: cmake_force
@@ -2441,7 +2455,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff34.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff35.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff35.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.i: cmake_force
@@ -2455,7 +2469,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff35.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff36.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff36.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.i: cmake_force
@@ -2469,7 +2483,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff36.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff37.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff37.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.i: cmake_force
@@ -2483,7 +2497,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff37.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff38.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff38.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.i: cmake_force
@@ -2497,7 +2511,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff38.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff39.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff39.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.i: cmake_force
@@ -2511,7 +2525,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff39.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff40.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff40.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.i: cmake_force
@@ -2525,7 +2539,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff40.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff41.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff41.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.i: cmake_force
@@ -2539,7 +2553,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff41.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff42.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff42.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.i: cmake_force
@@ -2553,7 +2567,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff42.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff43.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff43.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.i: cmake_force
@@ -2567,7 +2581,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff43.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff44.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff44.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.i: cmake_force
@@ -2581,7 +2595,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff44.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff45.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff45.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.i: cmake_force
@@ -2595,7 +2609,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff45.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff46.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff46.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.i: cmake_force
@@ -2609,7 +2623,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff46.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff47.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff47.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.i: cmake_force
@@ -2623,7 +2637,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff47.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff48.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff48.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.i: cmake_force
@@ -2637,7 +2651,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff48.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff49.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff49.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.i: cmake_force
@@ -2651,7 +2665,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff49.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff50.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff50.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.i: cmake_force
@@ -2665,7 +2679,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff50.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff51.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff51.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.i: cmake_force
@@ -2679,7 +2693,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff51.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff52.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff52.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.i: cmake_force
@@ -2693,7 +2707,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff52.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff53.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff53.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.i: cmake_force
@@ -2707,7 +2721,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff53.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff54.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff54.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.i: cmake_force
@@ -2721,7 +2735,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff55.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff55.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.i: cmake_force
@@ -2735,7 +2749,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff55.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff56.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff56.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.i: cmake_force
@@ -2749,7 +2763,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff56.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff57.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff57.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.i: cmake_force
@@ -2763,7 +2777,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff58.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff58.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.i: cmake_force
@@ -2777,7 +2791,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff58.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff59.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff59.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.i: cmake_force
@@ -2791,7 +2805,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff59.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff60.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff60.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.i: cmake_force
@@ -2805,7 +2819,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff60.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff61.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff61.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.i: cmake_force
@@ -2819,7 +2833,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff61.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff62.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff62.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.i: cmake_force
@@ -2833,7 +2847,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff62.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff63.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff63.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.i: cmake_force
@@ -2847,7 +2861,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff63.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff64.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff64.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.i: cmake_force
@@ -2861,7 +2875,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff64.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff65.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff65.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.i: cmake_force
@@ -2875,7 +2889,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff65.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff66.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff66.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.i: cmake_force
@@ -2889,7 +2903,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff66.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff67.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff67.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.i: cmake_force
@@ -2903,7 +2917,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff67.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff68.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff68.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.i: cmake_force
@@ -2917,7 +2931,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff68.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff69.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff69.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.i: cmake_force
@@ -2931,7 +2945,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff69.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff70.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff70.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.i: cmake_force
@@ -2945,7 +2959,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff70.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff71.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff71.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.i: cmake_force
@@ -2959,7 +2973,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff71.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff72.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff72.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.i: cmake_force
@@ -2973,7 +2987,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff72.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff73.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff73.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.i: cmake_force
@@ -2987,7 +3001,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff73.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff74.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff74.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.i: cmake_force
@@ -3001,7 +3015,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff74.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff75.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff75.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.i: cmake_force
@@ -3015,7 +3029,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff76.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff76.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.i: cmake_force
@@ -3029,7 +3043,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff76.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff77.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff77.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.i: cmake_force
@@ -3043,7 +3057,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff77.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff78.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff78.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.i: cmake_force
@@ -3057,7 +3071,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff78.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff79.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff79.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.i: cmake_force
@@ -3071,7 +3085,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff79.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff80.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff80.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.i: cmake_force
@@ -3085,7 +3099,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff80.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff81.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff81.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.i: cmake_force
@@ -3099,7 +3113,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff81.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff82.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff82.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.i: cmake_force
@@ -3113,7 +3127,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff82.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff83.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff83.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.i: cmake_force
@@ -3127,7 +3141,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff83.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff84.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff84.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.i: cmake_force
@@ -3141,7 +3155,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff84.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff85.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff85.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.i: cmake_force
@@ -3155,7 +3169,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff85.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff86.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff86.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.i: cmake_force
@@ -3169,7 +3183,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff86.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff90.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff90.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.i: cmake_force
@@ -3183,7 +3197,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff90.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff91.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff91.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.i: cmake_force
@@ -3197,7 +3211,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff91.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff92.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff92.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.i: cmake_force
@@ -3211,7 +3225,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff92.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff93.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff93.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.i: cmake_force
@@ -3225,7 +3239,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff93.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff94.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff94.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.i: cmake_force
@@ -3239,7 +3253,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff94.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff95.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff95.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.i: cmake_force
@@ -3253,7 +3267,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff95.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff96.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff96.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.i: cmake_force
@@ -3267,7 +3281,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff96.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff97.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff97.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.i: cmake_force
@@ -3281,7 +3295,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff97.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff98.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff98.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.i: cmake_force
@@ -3295,7 +3309,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff98.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff99.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff99.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.i: cmake_force
@@ -3309,7 +3323,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff99.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.i: cmake_force
@@ -3323,7 +3337,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa1.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa1.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.i: cmake_force
@@ -3337,7 +3351,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa1.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.i: cmake_force
@@ -3351,7 +3365,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.i: cmake_force
@@ -3365,7 +3379,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.i: cmake_force
@@ -3379,7 +3393,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.i: cmake_force
@@ -3393,7 +3407,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.i: cmake_force
@@ -3407,7 +3421,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.i: cmake_force
@@ -3421,7 +3435,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.i: cmake_force
@@ -3435,7 +3449,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effa9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.i: cmake_force
@@ -3449,7 +3463,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.i: cmake_force
@@ -3463,7 +3477,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb1.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb1.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.i: cmake_force
@@ -3477,7 +3491,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb1.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.i: cmake_force
@@ -3491,7 +3505,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.i: cmake_force
@@ -3505,7 +3519,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.i: cmake_force
@@ -3519,7 +3533,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.i: cmake_force
@@ -3533,7 +3547,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.i: cmake_force
@@ -3547,7 +3561,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.i: cmake_force
@@ -3561,7 +3575,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.i: cmake_force
@@ -3575,7 +3589,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.i: cmake_force
@@ -3589,7 +3603,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.i: cmake_force
@@ -3603,7 +3617,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc1.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc1.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.i: cmake_force
@@ -3617,7 +3631,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc1.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.i: cmake_force
@@ -3631,7 +3645,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.i: cmake_force
@@ -3645,7 +3659,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.i: cmake_force
@@ -3659,7 +3673,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.i: cmake_force
@@ -3673,7 +3687,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.i: cmake_force
@@ -3687,7 +3701,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.i: cmake_force
@@ -3701,7 +3715,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.i: cmake_force
@@ -3715,7 +3729,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effc9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.i: cmake_force
@@ -3729,7 +3743,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effc9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.i: cmake_force
@@ -3743,7 +3757,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd1.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd1.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.i: cmake_force
@@ -3757,7 +3771,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd1.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.i: cmake_force
@@ -3771,7 +3785,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.i: cmake_force
@@ -3785,7 +3799,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.i: cmake_force
@@ -3799,7 +3813,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.i: cmake_force
@@ -3813,7 +3827,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.i: cmake_force
@@ -3827,7 +3841,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.i: cmake_force
@@ -3841,7 +3855,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effd9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.i: cmake_force
@@ -3855,7 +3869,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.i: cmake_force
@@ -3869,7 +3883,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe1.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe1.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.i: cmake_force
@@ -3883,7 +3897,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe1.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.i: cmake_force
@@ -3897,7 +3911,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.i: cmake_force
@@ -3911,7 +3925,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.i: cmake_force
@@ -3925,7 +3939,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.i: cmake_force
@@ -3939,7 +3953,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.i: cmake_force
@@ -3953,7 +3967,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.i: cmake_force
@@ -3967,7 +3981,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.i: cmake_force
@@ -3981,7 +3995,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.i: cmake_force
@@ -3995,7 +4009,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effect.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effect.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.i: cmake_force
@@ -4009,7 +4023,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effect.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.i: cmake_force
@@ -4023,7 +4037,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.i: cmake_force
@@ -4037,7 +4051,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.i: cmake_force
@@ -4051,7 +4065,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.i: cmake_force
@@ -4065,7 +4079,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.i: cmake_force
@@ -4079,7 +4093,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/efff9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.i: cmake_force
@@ -4093,7 +4107,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.i: cmake_force
@@ -4107,7 +4121,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.i: cmake_force
@@ -4121,7 +4135,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.i: cmake_force
@@ -4135,7 +4149,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.i: cmake_force
@@ -4149,7 +4163,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.i: cmake_force
@@ -4163,7 +4177,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.i: cmake_force
@@ -4177,7 +4191,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.i: cmake_force
@@ -4191,7 +4205,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.i: cmake_force
@@ -4205,7 +4219,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effg9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.i: cmake_force
@@ -4219,7 +4233,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh1.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh1.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.i: cmake_force
@@ -4233,7 +4247,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh1.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.i: cmake_force
@@ -4247,7 +4261,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.i: cmake_force
@@ -4261,7 +4275,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effh9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.i: cmake_force
@@ -4275,7 +4289,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effh9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.i: cmake_force
@@ -4289,7 +4303,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.i: cmake_force
@@ -4303,7 +4317,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.i: cmake_force
@@ -4317,7 +4331,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.i: cmake_force
@@ -4331,7 +4345,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.i: cmake_force
@@ -4345,7 +4359,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.i: cmake_force
@@ -4359,7 +4373,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effi9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.i: cmake_force
@@ -4373,7 +4387,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.i: cmake_force
@@ -4387,7 +4401,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.i: cmake_force
@@ -4401,7 +4415,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.i: cmake_force
@@ -4415,7 +4429,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.i: cmake_force
@@ -4429,7 +4443,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.i: cmake_force
@@ -4443,7 +4457,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.i: cmake_force
@@ -4457,7 +4471,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effj9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.i: cmake_force
@@ -4471,7 +4485,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.i: cmake_force
@@ -4485,7 +4499,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.i: cmake_force
@@ -4499,7 +4513,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.i: cmake_force
@@ -4513,7 +4527,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.i: cmake_force
@@ -4527,7 +4541,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.i: cmake_force
@@ -4541,7 +4555,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.i: cmake_force
@@ -4555,7 +4569,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.i: cmake_force
@@ -4569,7 +4583,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.i: cmake_force
@@ -4583,7 +4597,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.i: cmake_force
@@ -4597,7 +4611,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl1.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl1.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.i: cmake_force
@@ -4611,7 +4625,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl1.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.i: cmake_force
@@ -4625,7 +4639,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.i: cmake_force
@@ -4639,7 +4653,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl4.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl4.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.i: cmake_force
@@ -4653,7 +4667,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl4.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.i: cmake_force
@@ -4667,7 +4681,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.i: cmake_force
@@ -4681,7 +4695,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.i: cmake_force
@@ -4695,7 +4709,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.i: cmake_force
@@ -4709,7 +4723,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl9.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl9.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.i: cmake_force
@@ -4723,7 +4737,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effl9.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm0.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm0.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.i: cmake_force
@@ -4737,7 +4751,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm0.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm1.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm1.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.i: cmake_force
@@ -4751,7 +4765,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm1.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.i: cmake_force
@@ -4765,7 +4779,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm2.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.i: cmake_force
@@ -4779,7 +4793,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm5.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm5.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.i: cmake_force
@@ -4793,7 +4807,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm5.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm6.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm6.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.i: cmake_force
@@ -4807,7 +4821,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm6.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm7.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm7.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.i: cmake_force
@@ -4821,7 +4835,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm7.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm8.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm8.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.i: cmake_force
@@ -4835,7 +4849,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm8.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effxx.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effxx.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.i: cmake_force
@@ -4849,7 +4863,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effxx.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.i: cmake_force
@@ -4863,7 +4877,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_00.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.i: cmake_force
@@ -4877,7 +4891,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_01.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.i: cmake_force
@@ -4891,7 +4905,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_02.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.i: cmake_force
@@ -4905,7 +4919,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_03.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_04.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_04.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.i: cmake_force
@@ -4919,7 +4933,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_04.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_05.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_05.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.i: cmake_force
@@ -4933,7 +4947,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_05.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_06.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_06.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.i: cmake_force
@@ -4947,7 +4961,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_06.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_07.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_07.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.i: cmake_force
@@ -4961,7 +4975,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_07.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_08.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_08.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.i: cmake_force
@@ -4975,7 +4989,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_08.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_09.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_09.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.i: cmake_force
@@ -4989,7 +5003,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_09.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_10.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_10.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.i: cmake_force
@@ -5003,7 +5017,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_10.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_11.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_11.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.i: cmake_force
@@ -5017,7 +5031,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_11.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_12.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_12.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.i: cmake_force
@@ -5031,7 +5045,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_12.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_13.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_13.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.i: cmake_force
@@ -5045,7 +5059,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_13.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_14.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_14.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.i: cmake_force
@@ -5059,7 +5073,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_16.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_16.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.i: cmake_force
@@ -5073,7 +5087,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_16.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_17.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_17.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.i: cmake_force
@@ -5087,7 +5101,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_17.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_18.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_18.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.i: cmake_force
@@ -5101,7 +5115,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_18.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_19.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_19.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.i: cmake_force
@@ -5115,7 +5129,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_19.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_20.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_20.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.i: cmake_force
@@ -5129,7 +5143,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_20.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.i: cmake_force
@@ -5143,7 +5157,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_data.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_main.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ending/end_main.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.i: cmake_force
@@ -5157,7 +5171,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_main.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/bbbscom.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/bbbscom.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.i: cmake_force
@@ -5171,7 +5185,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/bbbscom2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/bbbscom2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.i: cmake_force
@@ -5185,7 +5199,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom2.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/caldir.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/caldir.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.i: cmake_force
@@ -5199,7 +5213,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/caldir.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/charid.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/charid.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.i: cmake_force
@@ -5213,7 +5227,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charid.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/charset.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/charset.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.i: cmake_force
@@ -5227,7 +5241,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmb_win.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmb_win.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.i: cmake_force
@@ -5241,7 +5255,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmb_win.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmd_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmd_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.i: cmake_force
@@ -5255,7 +5269,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_data.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmd_main.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmd_main.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.i: cmake_force
@@ -5269,7 +5283,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/cmd_main.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/getup.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/getup.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.i: cmake_force
@@ -5283,7 +5297,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/getup.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/grade.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/grade.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.i: cmake_force
@@ -5297,7 +5311,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/grade.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitcheck.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitcheck.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.i: cmake_force
@@ -5311,7 +5325,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitcheck.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitefef.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitefef.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.i: cmake_force
@@ -5325,7 +5339,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefef.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitefpl.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitefpl.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.i: cmake_force
@@ -5339,7 +5353,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitefpl.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitplef.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitplef.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.i: cmake_force
@@ -5353,7 +5367,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplef.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitplpl.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/hitplpl.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.i: cmake_force
@@ -5367,7 +5381,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/hitplpl.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/manage.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/manage.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.i: cmake_force
@@ -5381,7 +5395,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/manage.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.i: cmake_force
@@ -5395,7 +5409,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.i: cmake_force
@@ -5409,7 +5423,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt2.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt3.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt3.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.i: cmake_force
@@ -5423,7 +5437,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plcnt3.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plmain.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plmain.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.i: cmake_force
@@ -5437,7 +5451,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plmain2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plmain2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.i: cmake_force
@@ -5451,7 +5465,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plmain2.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.i: cmake_force
@@ -5465,7 +5479,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.i: cmake_force
@@ -5479,7 +5493,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat00.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.i: cmake_force
@@ -5493,7 +5507,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat01.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.i: cmake_force
@@ -5507,7 +5521,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat02.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.i: cmake_force
@@ -5521,7 +5535,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat03.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat04.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat04.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.i: cmake_force
@@ -5535,7 +5549,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat04.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat05.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat05.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.i: cmake_force
@@ -5549,7 +5563,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat05.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat06.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat06.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.i: cmake_force
@@ -5563,7 +5577,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat07.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat07.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.i: cmake_force
@@ -5577,7 +5591,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat07.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat08.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat08.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.i: cmake_force
@@ -5591,7 +5605,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat08.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat09.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat09.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.i: cmake_force
@@ -5605,7 +5619,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat09.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat10.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat10.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.i: cmake_force
@@ -5619,7 +5633,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat10.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat11.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat11.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.i: cmake_force
@@ -5633,7 +5647,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat12.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat12.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.i: cmake_force
@@ -5647,7 +5661,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat12.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat13.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat13.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.i: cmake_force
@@ -5661,7 +5675,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat13.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat14.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat14.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.i: cmake_force
@@ -5675,7 +5689,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat14.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat16.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat16.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.i: cmake_force
@@ -5689,7 +5703,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat16.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat17.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat17.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.i: cmake_force
@@ -5703,7 +5717,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat17.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat18.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat18.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.i: cmake_force
@@ -5717,7 +5731,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat18.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat19.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat19.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.i: cmake_force
@@ -5731,7 +5745,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat19.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat20.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat20.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.i: cmake_force
@@ -5745,7 +5759,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat20.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpatuni.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpatuni.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.i: cmake_force
@@ -5759,7 +5773,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpatuni.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpca.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpca.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.i: cmake_force
@@ -5773,7 +5787,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpca.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpcu.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpcu.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.i: cmake_force
@@ -5787,7 +5801,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpcu.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpdm.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpdm.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.i: cmake_force
@@ -5801,7 +5815,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpdm.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpnm.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpnm.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.i: cmake_force
@@ -5815,7 +5829,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpnm.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pls00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pls00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.i: cmake_force
@@ -5829,7 +5843,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls00.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pls01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pls01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.i: cmake_force
@@ -5843,7 +5857,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls01.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pls02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pls02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.i: cmake_force
@@ -5857,7 +5871,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls02.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pls03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pls03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.i: cmake_force
@@ -5871,7 +5885,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pls03.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pow_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pow_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.i: cmake_force
@@ -5885,7 +5899,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_data.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pow_pow.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/pow_pow.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.i: cmake_force
@@ -5899,7 +5913,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/pow_pow.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/slowf.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/slowf.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.i: cmake_force
@@ -5913,7 +5927,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/slowf.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/spgauge.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/spgauge.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.i: cmake_force
@@ -5927,7 +5941,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/spgauge.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/stun.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/stun.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.i: cmake_force
@@ -5941,7 +5955,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/stun.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/vital.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/vital.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.i: cmake_force
@@ -5955,7 +5969,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/vital.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/workuser.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/workuser.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.i: cmake_force
@@ -5969,7 +5983,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/workuser.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/game.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/game.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.i: cmake_force
@@ -5983,7 +5997,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/game.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/init3rd.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/init3rd.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.i: cmake_force
@@ -5997,7 +6011,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/init3rd.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/gd3rd.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/gd3rd.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.i: cmake_force
@@ -6011,7 +6025,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/gd3rd.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/ioconv.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/ioconv.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.i: cmake_force
@@ -6025,7 +6039,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/ioconv.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/pulpul.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/pulpul.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.i: cmake_force
@@ -6039,7 +6053,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/pulpul.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/vm.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/vm.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.i: cmake_force
@@ -6053,7 +6067,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/vm_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/vm_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.i: cmake_force
@@ -6067,7 +6081,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_data.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/vm_sub.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/vm_sub.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.i: cmake_force
@@ -6081,7 +6095,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/io/vm_sub.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/dir_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/dir_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.i: cmake_force
@@ -6095,7 +6109,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/dir_data.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/ex_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/ex_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.i: cmake_force
@@ -6109,7 +6123,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/ex_data.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/menu.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/menu.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.i: cmake_force
@@ -6123,7 +6137,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/menu.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/netplay_menu.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/menu/netplay_menu.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.i: cmake_force
@@ -6137,7 +6151,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/menu/netplay_menu.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/msgextra_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/msgextra_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.i: cmake_force
@@ -6151,7 +6165,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgextra_en.c.s: c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/msgmenu_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/msgmenu_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.i: cmake_force
@@ -6165,7 +6179,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgmenu_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/msgsysdir_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/msgsysdir_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.i: cmake_force
@@ -6179,7 +6193,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgsysdir_en.c.s: 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/msgtable_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/msgtable_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.i: cmake_force
@@ -6193,7 +6207,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/msgtable_en.c.s: c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl00end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl00end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.i: cmake_force
@@ -6207,7 +6221,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl00tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl00tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.i: cmake_force
@@ -6221,7 +6235,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl00win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl00win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.i: cmake_force
@@ -6235,7 +6249,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl00win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl01end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl01end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.i: cmake_force
@@ -6249,7 +6263,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl01tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl01tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.i: cmake_force
@@ -6263,7 +6277,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl01win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl01win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.i: cmake_force
@@ -6277,7 +6291,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl01win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl02end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl02end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.i: cmake_force
@@ -6291,7 +6305,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl02tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl02tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.i: cmake_force
@@ -6305,7 +6319,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl02win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl02win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.i: cmake_force
@@ -6319,7 +6333,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl02win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl03end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl03end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.i: cmake_force
@@ -6333,7 +6347,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl03tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl03tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.i: cmake_force
@@ -6347,7 +6361,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl03win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl03win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.i: cmake_force
@@ -6361,7 +6375,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl03win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl04end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl04end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.i: cmake_force
@@ -6375,7 +6389,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl04tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl04tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.i: cmake_force
@@ -6389,7 +6403,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl04win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl04win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.i: cmake_force
@@ -6403,7 +6417,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl04win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl05end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl05end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.i: cmake_force
@@ -6417,7 +6431,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl05tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl05tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.i: cmake_force
@@ -6431,7 +6445,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl05win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl05win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.i: cmake_force
@@ -6445,7 +6459,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl05win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl06end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl06end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.i: cmake_force
@@ -6459,7 +6473,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl06tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl06tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.i: cmake_force
@@ -6473,7 +6487,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl06win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl06win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.i: cmake_force
@@ -6487,7 +6501,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl06win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl07end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl07end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.i: cmake_force
@@ -6501,7 +6515,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl07tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl07tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.i: cmake_force
@@ -6515,7 +6529,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl07win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl07win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.i: cmake_force
@@ -6529,7 +6543,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl07win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl08end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl08end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.i: cmake_force
@@ -6543,7 +6557,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl08tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl08tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.i: cmake_force
@@ -6557,7 +6571,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl08win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl08win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.i: cmake_force
@@ -6571,7 +6585,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl09end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl09end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.i: cmake_force
@@ -6585,7 +6599,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl09tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl09tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.i: cmake_force
@@ -6599,7 +6613,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl09win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl09win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.i: cmake_force
@@ -6613,7 +6627,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl10end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl10end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.i: cmake_force
@@ -6627,7 +6641,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl10tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl10tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.i: cmake_force
@@ -6641,7 +6655,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl10win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl10win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.i: cmake_force
@@ -6655,7 +6669,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl10win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl11end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl11end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.i: cmake_force
@@ -6669,7 +6683,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl11tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl11tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.i: cmake_force
@@ -6683,7 +6697,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl11win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl11win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.i: cmake_force
@@ -6697,7 +6711,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl11win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.i: cmake_force
@@ -6711,7 +6725,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.i: cmake_force
@@ -6725,7 +6739,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.i: cmake_force
@@ -6739,7 +6753,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl13end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl13end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.i: cmake_force
@@ -6753,7 +6767,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl13tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl13tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.i: cmake_force
@@ -6767,7 +6781,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl13win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl13win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.i: cmake_force
@@ -6781,7 +6795,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl13win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl14end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl14end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.i: cmake_force
@@ -6795,7 +6809,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl14win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl14win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.i: cmake_force
@@ -6809,7 +6823,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl14win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl15end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl15end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.i: cmake_force
@@ -6823,7 +6837,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl15tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl15tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.i: cmake_force
@@ -6837,7 +6851,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl15win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl15win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.i: cmake_force
@@ -6851,7 +6865,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl15win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl16end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl16end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.i: cmake_force
@@ -6865,7 +6879,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl16tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl16tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.i: cmake_force
@@ -6879,7 +6893,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl16win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl16win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.i: cmake_force
@@ -6893,7 +6907,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl16win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl17end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl17end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.i: cmake_force
@@ -6907,7 +6921,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl17win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl17win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.i: cmake_force
@@ -6921,7 +6935,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl17win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl18end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl18end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.i: cmake_force
@@ -6935,7 +6949,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl18tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl18tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.i: cmake_force
@@ -6949,7 +6963,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl18win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl18win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.i: cmake_force
@@ -6963,7 +6977,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl18win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl19end_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl19end_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.i: cmake_force
@@ -6977,7 +6991,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19end_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl19tlk_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl19tlk_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.i: cmake_force
@@ -6991,7 +7005,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19tlk_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl19win_en.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl19win_en.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.i: cmake_force
@@ -7005,7 +7019,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl19win_en.c.s: cm
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/opening/op_sub.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/opening/op_sub.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.i: cmake_force
@@ -7019,7 +7033,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/op_sub.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/opening/opening.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/opening/opening.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.i: cmake_force
@@ -7033,7 +7047,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/opening/opening.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/aboutspr.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/aboutspr.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.i: cmake_force
@@ -7047,7 +7061,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/aboutspr.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/chren3rd.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/chren3rd.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.i: cmake_force
@@ -7061,7 +7075,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/chren3rd.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/color3rd.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/color3rd.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.i: cmake_force
@@ -7075,7 +7089,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/dc_ghost.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/dc_ghost.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.i: cmake_force
@@ -7089,7 +7103,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/dc_ghost.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/meta_col.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/meta_col.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.i: cmake_force
@@ -7103,7 +7117,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/meta_col.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/mmtmcnt.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/mmtmcnt.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.i: cmake_force
@@ -7117,7 +7131,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mmtmcnt.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/mtrans.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/mtrans.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.i: cmake_force
@@ -7131,7 +7145,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/mtrans.c.s: cmake_f
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/texcash.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/texcash.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.i: cmake_force
@@ -7145,7 +7159,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texcash.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/texgroup.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/rendering/texgroup.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.i: cmake_force
@@ -7159,7 +7173,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/texgroup.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/continue.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/continue.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.i: cmake_force
@@ -7173,7 +7187,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/continue.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/entry.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/entry.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.i: cmake_force
@@ -7187,7 +7201,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/entry.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/gameover.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/gameover.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.i: cmake_force
@@ -7201,7 +7215,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/gameover.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/n_input.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/n_input.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.i: cmake_force
@@ -7215,7 +7229,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/n_input.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/next_cpu.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/next_cpu.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.i: cmake_force
@@ -7229,7 +7243,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/next_cpu.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/ranking.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/ranking.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.i: cmake_force
@@ -7243,7 +7257,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/ranking.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/sel_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/sel_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.i: cmake_force
@@ -7257,7 +7271,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/sel_pl.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_515) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/sel_pl.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.i: cmake_force
@@ -7271,7 +7285,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_pl.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/staff.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_515) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_516) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/staff.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.i: cmake_force
@@ -7285,7 +7299,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/staff.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/vs_shell.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_516) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_517) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/vs_shell.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.i: cmake_force
@@ -7299,7 +7313,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/vs_shell.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/win.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_517) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_518) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/screen/win.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.i: cmake_force
@@ -7313,7 +7327,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/win.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/sound/se.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_518) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_519) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/sound/se.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.i: cmake_force
@@ -7327,7 +7341,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/sound/se_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_519) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_520) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/sound/se_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.i: cmake_force
@@ -7341,7 +7355,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/se_data.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/sound/sound3rd.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_520) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_521) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/sound/sound3rd.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.i: cmake_force
@@ -7355,7 +7369,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/sound/sound3rd.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_521) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_522) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.i: cmake_force
@@ -7369,7 +7383,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg000.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_522) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_523) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg000.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.i: cmake_force
@@ -7383,7 +7397,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg000.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg010.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_523) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_524) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg010.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.i: cmake_force
@@ -7397,7 +7411,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg010.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg020.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_524) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_525) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg020.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.i: cmake_force
@@ -7411,7 +7425,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg020.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg030.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_525) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_526) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg030.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.i: cmake_force
@@ -7425,7 +7439,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg030.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg040.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_526) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_527) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg040.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.i: cmake_force
@@ -7439,7 +7453,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg040.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg050.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_527) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_528) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg050.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.i: cmake_force
@@ -7453,7 +7467,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg050.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg060.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_528) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_529) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg060.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.i: cmake_force
@@ -7467,7 +7481,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg060.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg070.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_529) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_530) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg070.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.i: cmake_force
@@ -7481,7 +7495,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg070.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg080.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_530) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_531) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg080.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.i: cmake_force
@@ -7495,7 +7509,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg080.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg090.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_531) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_532) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg090.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.i: cmake_force
@@ -7509,7 +7523,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg090.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg100.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_532) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_533) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg100.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.i: cmake_force
@@ -7523,7 +7537,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg100.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg120.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_533) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_534) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg120.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.i: cmake_force
@@ -7537,7 +7551,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg120.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg130.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_534) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_535) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg130.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.i: cmake_force
@@ -7551,7 +7565,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg130.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg140.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_535) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_536) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg140.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.i: cmake_force
@@ -7565,7 +7579,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg140.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg150.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_536) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_537) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg150.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.i: cmake_force
@@ -7579,7 +7593,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg150.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg160.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_537) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_538) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg160.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.i: cmake_force
@@ -7593,7 +7607,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg160.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg180.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_538) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_539) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg180.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.i: cmake_force
@@ -7607,7 +7621,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg180.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg190.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_539) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_540) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg190.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.i: cmake_force
@@ -7621,7 +7635,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg190.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_540) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_541) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.i: cmake_force
@@ -7635,7 +7649,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_data.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg_sub.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_541) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_542) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg_sub.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.i: cmake_force
@@ -7649,7 +7663,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bg_sub.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bns_bg2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_542) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bns_bg2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.i: cmake_force
@@ -7663,7 +7677,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bns_bg2.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bonus_bg.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_544) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bonus_bg.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.i: cmake_force
@@ -7677,7 +7691,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/bonus_bg.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/ta_sub.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_544) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_545) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/ta_sub.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.i: cmake_force
@@ -7691,7 +7705,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/ta_sub.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/tate00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_545) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_546) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/tate00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.i: cmake_force
@@ -7705,7 +7719,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/stage/tate00.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/pause.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_546) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_547) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/pause.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.i: cmake_force
@@ -7719,7 +7733,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/pause.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/ramcnt.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_547) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_548) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/ramcnt.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.i: cmake_force
@@ -7733,7 +7747,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/ramcnt.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/reset.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_548) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_549) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/reset.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.i: cmake_force
@@ -7747,7 +7761,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/reset.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/saver.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_549) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_550) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/saver.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.i: cmake_force
@@ -7761,7 +7775,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/saver.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/sys_sub.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_550) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_551) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/sys_sub.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.i: cmake_force
@@ -7775,7 +7789,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub.c.s: cmake_for
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/sys_sub2.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_551) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_552) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/sys_sub2.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.i: cmake_force
@@ -7789,7 +7803,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sys_sub2.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/sysdir.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_552) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_553) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/sysdir.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.i: cmake_force
@@ -7803,7 +7817,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/sysdir.c.s: cmake_forc
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/work_sys.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_553) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_554) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/work_sys.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.i: cmake_force
@@ -7817,7 +7831,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/system/work_sys.c.s: cmake_fo
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/count.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_554) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_555) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/count.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.i: cmake_force
@@ -7831,7 +7845,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/count.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/flash_lp.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_555) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_556) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/flash_lp.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.i: cmake_force
@@ -7845,7 +7859,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/flash_lp.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/glyph_renderer.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_556) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_557) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/glyph_renderer.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.i: cmake_force
@@ -7859,7 +7873,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/glyph_renderer.c.s: cmake_
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/input_history.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_557) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_558) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/input_history.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.i: cmake_force
@@ -7873,7 +7887,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/input_history.c.s: cmake_f
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/sc_data.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_558) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_559) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/sc_data.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.i: cmake_force
@@ -7887,7 +7901,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_data.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/sc_sub.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_559) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_560) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/sc_sub.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.i: cmake_force
@@ -7901,7 +7915,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ui/sc_sub.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_560) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_561) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.i: cmake_force
@@ -7915,7 +7929,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL00.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_561) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_562) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.i: cmake_force
@@ -7929,7 +7943,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL01.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_562) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_563) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.i: cmake_force
@@ -7943,7 +7957,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL02.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_563) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_564) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.i: cmake_force
@@ -7957,7 +7971,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL03.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_564) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_565) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.i: cmake_force
@@ -7971,7 +7985,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL04.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_565) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_566) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.i: cmake_force
@@ -7985,7 +7999,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL05.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_566) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_567) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.i: cmake_force
@@ -7999,7 +8013,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL06.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_567) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_568) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.i: cmake_force
@@ -8013,7 +8027,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL07.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_568) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_569) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.i: cmake_force
@@ -8027,7 +8041,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_569) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_570) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.i: cmake_force
@@ -8041,7 +8055,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL09.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_570) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_571) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.i: cmake_force
@@ -8055,7 +8069,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL10.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_571) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_572) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.i: cmake_force
@@ -8069,7 +8083,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL11.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_572) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_573) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.i: cmake_force
@@ -8083,7 +8097,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL12.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_573) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_574) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.i: cmake_force
@@ -8097,7 +8111,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL13.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_574) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_575) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.i: cmake_force
@@ -8111,7 +8125,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL14.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_575) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_576) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.i: cmake_force
@@ -8125,7 +8139,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL15.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_576) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_577) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.i: cmake_force
@@ -8139,7 +8153,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL16.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_577) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_578) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.i: cmake_force
@@ -8153,7 +8167,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL17.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_578) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_579) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.i: cmake_force
@@ -8167,7 +8181,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL18.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_579) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_580) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.i: cmake_force
@@ -8181,7 +8195,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL19.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_580) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_581) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.i: cmake_force
@@ -8195,7 +8209,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_SE.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_581) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_582) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.i: cmake_force
@@ -8209,7 +8223,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/SpuMap.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_582) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.i: cmake_force
@@ -8223,7 +8237,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL00.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.i: cmake_force
@@ -8237,7 +8251,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL01.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.i: cmake_force
@@ -8251,7 +8265,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL02.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.i: cmake_force
@@ -8265,7 +8279,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL03.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_587) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.i: cmake_force
@@ -8279,7 +8293,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL04.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_587) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_588) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.i: cmake_force
@@ -8293,7 +8307,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_588) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_589) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.i: cmake_force
@@ -8307,7 +8321,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL06.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_589) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_590) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.i: cmake_force
@@ -8321,7 +8335,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL07.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_590) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_591) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.i: cmake_force
@@ -8335,7 +8349,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL08.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_591) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_592) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.i: cmake_force
@@ -8349,7 +8363,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL09.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_592) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_593) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.i: cmake_force
@@ -8363,7 +8377,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL10.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_593) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_594) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.i: cmake_force
@@ -8377,7 +8391,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL11.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_594) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_595) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.i: cmake_force
@@ -8391,7 +8405,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL12.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_595) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_596) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.i: cmake_force
@@ -8405,7 +8419,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL13.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_596) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_597) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.i: cmake_force
@@ -8419,7 +8433,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL14.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_597) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_598) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.i: cmake_force
@@ -8433,7 +8447,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL15.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_598) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_599) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.i: cmake_force
@@ -8447,7 +8461,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL16.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_599) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_600) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.i: cmake_force
@@ -8461,7 +8475,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL17.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_600) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_601) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.i: cmake_force
@@ -8475,7 +8489,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL18.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_601) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_602) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.i: cmake_force
@@ -8489,7 +8503,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL19.c.s: cma
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_602) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_603) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.i: cmake_force
@@ -8503,7 +8517,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_SE.c.s: cmake
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.o: /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/mc/savesub.c
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_603) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_604) "Building C object CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.o -MF CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.o.d -o CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.o -c /home/ryan/Code/Personal/3sx/src/sf33rd/Source/PS2/mc/savesub.c
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.i: cmake_force
@@ -8517,7 +8531,7 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/mc/savesub.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.o: /home/ryan/Code/Personal/3sx/src/stb/stb_impl.c
 CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_604) "Building C object CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_605) "Building C object CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.o -MF CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.o.d -o CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.o -c /home/ryan/Code/Personal/3sx/src/stb/stb_impl.c
 
 CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.i: cmake_force
@@ -8531,7 +8545,7 @@ CMakeFiles/3sx_libretro.dir/src/stb/stb_impl.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o: /home/ryan/Code/Personal/3sx/src/utils/sha256.c
 CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_605) "Building C object CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_606) "Building C object CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o -MF CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o.d -o CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o -c /home/ryan/Code/Personal/3sx/src/utils/sha256.c
 
 CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.i: cmake_force
@@ -8545,7 +8559,7 @@ CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.o: /home/ryan/Code/Personal/3sx/src/platform/video/opengl/glad/glad.c
 CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_606) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_607) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.o -MF CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.o.d -o CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.o -c /home/ryan/Code/Personal/3sx/src/platform/video/opengl/glad/glad.c
 
 CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.i: cmake_force
@@ -8559,7 +8573,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/video/opengl/glad/glad.c.s: cmake_force
 CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.o: CMakeFiles/3sx_libretro.dir/flags.make
 CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.o: /home/ryan/Code/Personal/3sx/src/platform/netplay/game_state.c
 CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.o: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_607) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_608) "Building C object CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.o -MF CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.o.d -o CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.o -c /home/ryan/Code/Personal/3sx/src/platform/netplay/game_state.c
 
 CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.i: cmake_force
@@ -8590,6 +8604,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.s: cmake_force
 "CMakeFiles/3sx_libretro.dir/src/main.c.o" \
 "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/adx_stub.c.o" \
 "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o" \
+"CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o" \
 "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o" \
 "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o" \
 "CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o" \
@@ -9201,6 +9216,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.s: cmake_force
 3sx_libretro.so: CMakeFiles/3sx_libretro.dir/src/main.c.o
 3sx_libretro.so: CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/adx_stub.c.o
 3sx_libretro.so: CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o
+3sx_libretro.so: CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o
 3sx_libretro.so: CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o
 3sx_libretro.so: CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o
 3sx_libretro.so: CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o
@@ -9794,7 +9810,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/netplay/game_state.c.s: cmake_force
 3sx_libretro.so: CMakeFiles/3sx_libretro.dir/compiler_depend.ts
 3sx_libretro.so: /usr/lib/x86_64-linux-gnu/libz.so
 3sx_libretro.so: CMakeFiles/3sx_libretro.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_608) "Linking C shared library 3sx_libretro.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ryan/Code/Personal/3sx/build-libretro/CMakeFiles --progress-num=$(CMAKE_PROGRESS_609) "Linking C shared library 3sx_libretro.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3sx_libretro.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

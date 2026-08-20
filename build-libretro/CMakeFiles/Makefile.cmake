@@ -99,5 +99,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/input_history_determinism_test.dir/DependInfo.cmake"
   "CMakeFiles/logging_callback_test.dir/DependInfo.cmake"
   "CMakeFiles/online_start_test.dir/DependInfo.cmake"
+  "CMakeFiles/libretro_ext_test.dir/DependInfo.cmake"
   "CMakeFiles/3sx_libretro.dir/DependInfo.cmake"
   )

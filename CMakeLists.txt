@@ -37,6 +37,13 @@ if(BUILD_TESTING AND NOT CMAKE_CROSSCOMPILING)
     )
     target_include_directories(online_start_test PRIVATE ${PROJECT_SOURCE_DIR}/src)
     add_test(NAME online_start COMMAND online_start_test)
+
+    add_executable(libretro_ext_test
+        tests/libretro_ext_test.c
+        src/platform/app/libretro/libretro_ext.c
+    )
+    target_include_directories(libretro_ext_test PRIVATE ${PROJECT_SOURCE_DIR}/src)
+    add_test(NAME libretro_ext COMMAND libretro_ext_test)
 endif()
 
 # ======================================

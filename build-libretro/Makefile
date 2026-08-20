@@ -531,6 +531,19 @@ online_start_test/fast:
 .PHONY : online_start_test/fast
 
 #=============================================================================
+# Target rules for targets named libretro_ext_test
+
+# Build rule for target.
+libretro_ext_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libretro_ext_test
+.PHONY : libretro_ext_test
+
+# fast build rule for target.
+libretro_ext_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libretro_ext_test.dir/build.make CMakeFiles/libretro_ext_test.dir/build
+.PHONY : libretro_ext_test/fast
+
+#=============================================================================
 # Target rules for targets named 3sx_libretro
 
 # Build rule for target.
@@ -980,6 +993,33 @@ src/platform/app/libretro/libretro_core.s: src/platform/app/libretro/libretro_co
 src/platform/app/libretro/libretro_core.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3sx_libretro.dir/build.make CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.s
 .PHONY : src/platform/app/libretro/libretro_core.c.s
+
+src/platform/app/libretro/libretro_ext.o: src/platform/app/libretro/libretro_ext.c.o
+.PHONY : src/platform/app/libretro/libretro_ext.o
+
+# target to build an object file
+src/platform/app/libretro/libretro_ext.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libretro_ext_test.dir/build.make CMakeFiles/libretro_ext_test.dir/src/platform/app/libretro/libretro_ext.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3sx_libretro.dir/build.make CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o
+.PHONY : src/platform/app/libretro/libretro_ext.c.o
+
+src/platform/app/libretro/libretro_ext.i: src/platform/app/libretro/libretro_ext.c.i
+.PHONY : src/platform/app/libretro/libretro_ext.i
+
+# target to preprocess a source file
+src/platform/app/libretro/libretro_ext.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libretro_ext_test.dir/build.make CMakeFiles/libretro_ext_test.dir/src/platform/app/libretro/libretro_ext.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3sx_libretro.dir/build.make CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.i
+.PHONY : src/platform/app/libretro/libretro_ext.c.i
+
+src/platform/app/libretro/libretro_ext.s: src/platform/app/libretro/libretro_ext.c.s
+.PHONY : src/platform/app/libretro/libretro_ext.s
+
+# target to generate assembly for a file
+src/platform/app/libretro/libretro_ext.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libretro_ext_test.dir/build.make CMakeFiles/libretro_ext_test.dir/src/platform/app/libretro/libretro_ext.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3sx_libretro.dir/build.make CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.s
+.PHONY : src/platform/app/libretro/libretro_ext.c.s
 
 src/platform/app/libretro/online_start.o: src/platform/app/libretro/online_start.c.o
 .PHONY : src/platform/app/libretro/online_start.o
@@ -15147,6 +15187,30 @@ tests/input_history_determinism_test.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_history_determinism_test.dir/build.make CMakeFiles/input_history_determinism_test.dir/tests/input_history_determinism_test.c.s
 .PHONY : tests/input_history_determinism_test.c.s
 
+tests/libretro_ext_test.o: tests/libretro_ext_test.c.o
+.PHONY : tests/libretro_ext_test.o
+
+# target to build an object file
+tests/libretro_ext_test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libretro_ext_test.dir/build.make CMakeFiles/libretro_ext_test.dir/tests/libretro_ext_test.c.o
+.PHONY : tests/libretro_ext_test.c.o
+
+tests/libretro_ext_test.i: tests/libretro_ext_test.c.i
+.PHONY : tests/libretro_ext_test.i
+
+# target to preprocess a source file
+tests/libretro_ext_test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libretro_ext_test.dir/build.make CMakeFiles/libretro_ext_test.dir/tests/libretro_ext_test.c.i
+.PHONY : tests/libretro_ext_test.c.i
+
+tests/libretro_ext_test.s: tests/libretro_ext_test.c.s
+.PHONY : tests/libretro_ext_test.s
+
+# target to generate assembly for a file
+tests/libretro_ext_test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libretro_ext_test.dir/build.make CMakeFiles/libretro_ext_test.dir/tests/libretro_ext_test.c.s
+.PHONY : tests/libretro_ext_test.c.s
+
 tests/logging_callback_test.o: tests/logging_callback_test.c.o
 .PHONY : tests/logging_callback_test.o
 
@@ -15234,6 +15298,7 @@ help:
 	@echo "... NightlyUpdate"
 	@echo "... 3sx_libretro"
 	@echo "... input_history_determinism_test"
+	@echo "... libretro_ext_test"
 	@echo "... logging_callback_test"
 	@echo "... online_start_test"
 	@echo "... src/arcade/arcade_balance.o"
@@ -15290,6 +15355,9 @@ help:
 	@echo "... src/platform/app/libretro/libretro_core.o"
 	@echo "... src/platform/app/libretro/libretro_core.i"
 	@echo "... src/platform/app/libretro/libretro_core.s"
+	@echo "... src/platform/app/libretro/libretro_ext.o"
+	@echo "... src/platform/app/libretro/libretro_ext.i"
+	@echo "... src/platform/app/libretro/libretro_ext.s"
 	@echo "... src/platform/app/libretro/online_start.o"
 	@echo "... src/platform/app/libretro/online_start.i"
 	@echo "... src/platform/app/libretro/online_start.s"
@@ -17060,6 +17128,9 @@ help:
 	@echo "... tests/input_history_determinism_test.o"
 	@echo "... tests/input_history_determinism_test.i"
 	@echo "... tests/input_history_determinism_test.s"
+	@echo "... tests/libretro_ext_test.o"
+	@echo "... tests/libretro_ext_test.i"
+	@echo "... tests/libretro_ext_test.s"
 	@echo "... tests/logging_callback_test.o"
 	@echo "... tests/logging_callback_test.i"
 	@echo "... tests/logging_callback_test.s"

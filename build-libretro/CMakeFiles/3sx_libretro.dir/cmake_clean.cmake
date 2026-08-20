@@ -38,6 +38,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/adx_stub.c.o.d"
   "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o"
   "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o.d"
+  "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o"
+  "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o.d"
   "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o"
   "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o.d"
   "CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o"

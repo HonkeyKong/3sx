@@ -1,4 +1,5 @@
-input_history_determinism 16 0.000128718
-logging_callback 13 0.000104246
-online_start 6 0.000193123
+input_history_determinism 18 0.000111044
+logging_callback 15 8.25621e-05
+online_start 8 0.000155834
+libretro_ext 2 0.000607936
 ---

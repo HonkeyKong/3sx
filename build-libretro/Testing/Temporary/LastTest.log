@@ -1,10 +1,10 @@
-Start testing: Aug 19 19:55 CDT
+Start testing: Aug 19 20:52 CDT
 ----------------------------------------------------------
-1/3 Testing: input_history_determinism
-1/3 Test: input_history_determinism
+1/4 Testing: input_history_determinism
+1/4 Test: input_history_determinism
 Command: "/home/ryan/Code/Personal/3sx/build-libretro/input_history_determinism_test"
 Directory: /home/ryan/Code/Personal/3sx/build-libretro
-"input_history_determinism" start time: Aug 19 19:55 CDT
+"input_history_determinism" start time: Aug 19 20:52 CDT
 Output:
 ----------------------------------------------------------
 input history replay deterministic: 240 frames x 5 restore cycles; rollback state size: 476424 bytes
@@ -12,38 +12,53 @@ input history replay deterministic: 240 frames x 5 restore cycles; rollback stat
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"input_history_determinism" end time: Aug 19 19:55 CDT
+"input_history_determinism" end time: Aug 19 20:52 CDT
 "input_history_determinism" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/3 Testing: logging_callback
-2/3 Test: logging_callback
+2/4 Testing: logging_callback
+2/4 Test: logging_callback
 Command: "/home/ryan/Code/Personal/3sx/build-libretro/logging_callback_test"
 Directory: /home/ryan/Code/Personal/3sx/build-libretro
-"logging_callback" start time: Aug 19 19:55 CDT
+"logging_callback" start time: Aug 19 20:52 CDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"logging_callback" end time: Aug 19 19:55 CDT
+"logging_callback" end time: Aug 19 20:52 CDT
 "logging_callback" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/3 Testing: online_start
-3/3 Test: online_start
+3/4 Testing: online_start
+3/4 Test: online_start
 Command: "/home/ryan/Code/Personal/3sx/build-libretro/online_start_test"
 Directory: /home/ryan/Code/Personal/3sx/build-libretro
-"online_start" start time: Aug 19 19:55 CDT
+"online_start" start time: Aug 19 20:52 CDT
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"online_start" end time: Aug 19 19:55 CDT
+"online_start" end time: Aug 19 20:52 CDT
 "online_start" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 19 19:55 CDT
+4/4 Testing: libretro_ext
+4/4 Test: libretro_ext
+Command: "/home/ryan/Code/Personal/3sx/build-libretro/libretro_ext_test"
+Directory: /home/ryan/Code/Personal/3sx/build-libretro
+"libretro_ext" start time: Aug 19 20:52 CDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"libretro_ext" end time: Aug 19 20:52 CDT
+"libretro_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 19 20:52 CDT

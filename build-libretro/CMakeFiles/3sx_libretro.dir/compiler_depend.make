@@ -34,6 +34,7 @@
   CMakeFiles/3sx_libretro.dir/src/main.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/adx_stub.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o \
+  CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o \
   CMakeFiles/3sx_libretro.dir/src/platform/input/libretro/libretro_input.c.o \
@@ -1419,6 +1420,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o: /home/r
   /home/ryan/Code/Personal/3sx/src/libretro/libretro.h \
   /home/ryan/Code/Personal/3sx/src/main.h \
   /home/ryan/Code/Personal/3sx/src/platform/app/libretro/compat/SDL3/SDL.h \
+  /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.h \
   /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.h \
   /home/ryan/Code/Personal/3sx/src/platform/input/libretro/libretro_input.h \
   /home/ryan/Code/Personal/3sx/src/platform/netplay/game_state.h \
@@ -1528,7 +1530,72 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o: /home/r
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h
 
+CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o: /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.c \
+  /home/ryan/Code/Personal/3sx/src/constants.h \
+  /home/ryan/Code/Personal/3sx/src/main.h \
+  /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.h \
+  /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plcommon.h \
+  /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/cmd_data.h \
+  /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt.h \
+  /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/workuser.h \
+  /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/system/work_sys.h \
+  /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/ui/count.h \
+  /home/ryan/Code/Personal/3sx/src/structs.h \
+  /home/ryan/Code/Personal/3sx/src/types.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h
+
 CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/online_start.c.o: /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.c \
+  /home/ryan/Code/Personal/3sx/src/main.h \
   /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.h \
   /home/ryan/Code/Personal/3sx/src/port/utils.h \
   /home/ryan/Code/Personal/3sx/src/sf33rd/AcrSDK/common/plcommon.h \
@@ -37817,8 +37884,6 @@ CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o: /home/ryan/Code/Personal/3sx/s
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl15tlk_en.c:
 
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl14end_en.c:
-
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl13win_en.c:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12win_en.c:
@@ -38351,8 +38416,6 @@ CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o: /home/ryan/Code/Personal/3sx/s
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb7.c:
 
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb6.c:
-
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/vm_data.h:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe0.c:
@@ -38695,13 +38758,11 @@ CMakeFiles/3sx_libretro.dir/src/utils/sha256.c.o: /home/ryan/Code/Personal/3sx/s
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo_dat.c:
 
-CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o:
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg080.c:
 
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff68.c:
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/bbbscom.h:
 
-CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o:
-
-CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o:
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo02.c:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/screen/sel_data.c.o:
 
@@ -38806,6 +38867,10 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl09win_en.c.o:
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat10.c:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl12tlk_en.c.o:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/game.h:
+
+CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/io/vm.h:
 
@@ -39051,6 +39116,14 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj6.c.o:
 
 CMakeFiles/3sx_libretro.dir/src/bin2obj/asstbl.c.o:
 
+CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effj4.c.o:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff68.c:
+
+CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/ac0003.c.o:
+
+CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/TSB_PL05.c.o:
+
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effg4.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
@@ -39227,6 +39300,16 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effd8.c.o:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/debug/debug_config.c.o:
 
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl0.c:
+
+CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o:
+
+CMakeFiles/3sx_libretro.dir/src/port/resources.c.o:
+
+/usr/lib/x86_64-linux-gnu/libm.so.6:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h:
+
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plcnt3.h:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff57.c.o:
@@ -39284,10 +39367,6 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active13.c.o:
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff54.c.o:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0001.c:
-
-CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell07.h:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl1.h:
 
@@ -39463,6 +39542,20 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plbmp.c.o:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0003.c:
 
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl05end_en.h:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff18.c:
+
+CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o:
+
+CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12tlk_en.h:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpnm.c:
+
+CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o:
+
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effe2.c:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/manage.h:
@@ -39502,16 +39595,6 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/sdl_compat.c.o:
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effe2.c.o:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff27.c.o:
-
-CMakeFiles/3sx_libretro.dir/src/port/resources.c.o:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effl0.c:
-
-CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effa8.c.o:
-
-/usr/lib/x86_64-linux-gnu/libm.so.6:
-
-/usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi8.c.o:
 
@@ -39801,6 +39884,10 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effb0.c.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libgcc.a:
 
+CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/passive/pass11.c.o:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/shell/shell07.h:
+
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/ending/end_14.c.o:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/com/active/active00.c.o:
@@ -39932,20 +40019,6 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/mlPAD.c.o:
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effm3.c.o:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/rendering/color3rd.c.o:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl05end_en.h:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff18.c:
-
-CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat06.c.o:
-
-CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/common/plapx.c.o:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl12tlk_en.h:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpnm.c:
-
-CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff31.c.o:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effk6.h:
 
@@ -40248,6 +40321,14 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff75.c.o:
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/ac0000.c:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effi0.c.o:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effb6.c:
+
+CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_ext.c.o:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff09.h:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/bbbscom.c.o:
 
@@ -40889,6 +40970,14 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/plpat11.c.o:
 
 /home/ryan/Code/Personal/3sx/src/platform/app/libretro/compat/SDL3/SDL.h:
 
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/message/en/pl14end_en.c:
+
+/home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h:
+
+/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active09.c:
+
 /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.h:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat19.h:
@@ -40928,6 +41017,8 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/efff5.c.o:
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/engine/charset.c.o:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/passive/pass0002.h:
+
+/home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.c:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/plpat01.h:
 
@@ -41089,10 +41180,6 @@ CMakeFiles/3sx_libretro.dir/src/port/sound/spu.c.o:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active02.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff09.h:
-
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/effm2.c:
 
 CMakeFiles/3sx_libretro.dir/src/sf33rd/AcrSDK/ps2/foundaps2.c.o:
@@ -41212,10 +41299,6 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/PS2/cseDataFiles/PHD_PL08.c.o:
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active01.h:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active19.c:
-
-/usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/com/active/active09.c:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/effect/eff46.h:
 
@@ -41540,13 +41623,3 @@ CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/eff16.c.o:
 CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/effect/effk9.c.o:
 
 /home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/opening/opening.h:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/stage/bg080.c:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/engine/bbbscom.h:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/demo/demo02.c:
-
-CMakeFiles/3sx_libretro.dir/src/sf33rd/Source/Game/message/en/pl08end_en.c.o:
-
-/home/ryan/Code/Personal/3sx/src/sf33rd/Source/Game/game.h:

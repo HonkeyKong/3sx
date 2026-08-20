@@ -49,6 +49,7 @@ CMakeFiles/3sx_libretro.dir/src/platform/app/libretro/libretro_core.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /home/ryan/Code/Personal/3sx/src/types.h \
  /home/ryan/Code/Personal/3sx/src/platform/app/libretro/online_start.h \
+ /home/ryan/Code/Personal/3sx/src/platform/app/libretro/libretro_ext.h \
  /home/ryan/Code/Personal/3sx/src/platform/input/libretro/libretro_input.h \
  /home/ryan/Code/Personal/3sx/src/core/input.h \
  /home/ryan/Code/Personal/3sx/src/platform/video/libretro/libretro_renderer.h \
