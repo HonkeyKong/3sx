@@ -4,6 +4,7 @@
 #include "port/utils.h"
 #include "sf33rd/Source/Game/init3rd.h"
 #include "sf33rd/Source/Game/menu/menu.h"
+#include "sf33rd/Source/Game/system/sys_sub.h"
 #include "sf33rd/Source/Game/system/work_sys.h"
 
 static bool requested;
@@ -21,6 +22,15 @@ void LibretroOnlineStart_SetEnabled(bool enabled) {
 void LibretroOnlineStart_Reset(void) {
     requested = false;
     completed = false;
+}
+
+void LibretroOnlineStart_Restart(void) {
+    Soft_Reset_Sub();
+
+    if (requested) {
+        Start_TwoPlayer_Arcade_Select();
+        completed = true;
+    }
 }
 
 void LibretroOnlineStart_Tick(void) {

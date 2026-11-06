@@ -7,6 +7,7 @@
 u16 p1sw_0, p2sw_0, p3sw_0, p4sw_0;
 u16 p1sw_1, p2sw_1, p3sw_1, p4sw_1;
 u32 Interrupt_Timer;
+MPP mpp_w;
 
 
 enum { REPLAY_FRAMES = 240, RESTORE_CYCLES = 5 };
@@ -40,13 +41,37 @@ int main(void) {
     InputHistory_Advance(initial);
     InputHistory_Save(&saved);
 
-    Interrupt_Timer = 1234;
-    RollbackState input_only;
-    RollbackState_SaveInputOnly(&input_only);
-    if (RollbackState_GetKind(&input_only, sizeof(input_only)) != ROLLBACK_STATE_INPUT_ONLY ||
-        input_only.payload.interrupt_timer != Interrupt_Timer ||
-        memcmp(&input_only.payload.input_history, &saved, sizeof(saved)) != 0) {
-        fprintf(stderr, "input-only rollback state did not capture its declared payload\n");
+    RollbackRuntimeState runtime;
+    mpp_w.initTrainingData = true;
+    mpp_w.inGame = false;
+    mpp_w.language = 1;
+    mpp_w.cutAnalogStickData = true;
+    mpp_w.useAnalogStickData = false;
+    memset(&runtime, 0, sizeof(runtime));
+    RollbackRuntimeState_Save(&runtime);
+
+    memset(&mpp_w, 0, sizeof(mpp_w));
+    mpp_w.inGame = true;
+    RollbackRuntimeState_Load(&runtime);
+    if (!mpp_w.initTrainingData || mpp_w.inGame || mpp_w.language != 1 ||
+        !mpp_w.cutAnalogStickData || mpp_w.useAnalogStickData) {
+        fprintf(stderr, "rollback runtime state did not restore the saved phase\n");
+        return 1;
+    }
+
+    RollbackState envelope;
+    memset(&envelope, 0, sizeof(envelope));
+    envelope.magic = ROLLBACK_STATE_MAGIC;
+    envelope.version = ROLLBACK_STATE_VERSION;
+    envelope.total_size = sizeof(envelope);
+    envelope.kind = ROLLBACK_STATE_FULL;
+    if (RollbackState_GetKind(&envelope, sizeof(envelope)) != ROLLBACK_STATE_FULL) {
+        fprintf(stderr, "full rollback state envelope was rejected\n");
+        return 1;
+    }
+    envelope.version--;
+    if (RollbackState_GetKind(&envelope, sizeof(envelope)) != 0) {
+        fprintf(stderr, "stale rollback state version was accepted\n");
         return 1;
     }
 

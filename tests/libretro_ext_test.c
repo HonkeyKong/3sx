@@ -13,6 +13,7 @@ struct _SAVE_W save_w[6];
 PresentMode Present_Mode;
 u8 Play_Type,PL_Wins[2],G_No[4],C_No[4],My_char[2],Conclusion_Flag,Continue_Coin[2];
 u32 Score[2][3];
+u32 Interrupt_Timer;
 s8 round_timer;
 
 int main(void){
@@ -29,7 +30,7 @@ int main(void){
  assert(a->read_u8(":maincpu","data",0x1c)==0);assert(a->read_u8(":bad","program",0x1c)==0);
  a->write_u8(":maincpu","program",0x1c,9);a->write_u32(":maincpu","program",0x14,0);assert(a->read_u8(":maincpu","program",0x1c)==1);assert(a->read_u32(":maincpu","program",0x14)==0x12345678);
  PL_Wins[1]=1;Score[1][0]=901;sx3_ext_frame_complete();assert(a->get_frame_number()==1);assert(a->read_u8(":maincpu","program",0x1d)==1);assert(a->read_u32(":maincpu","program",0x18)==901);
- PL_Wins[1]=0;sx3_ext_state_restored();assert(a->read_u8(":maincpu","program",0x1d)==0);
+ PL_Wins[1]=0;Interrupt_Timer=17;sx3_ext_state_restored();assert(a->get_frame_number()==17);assert(a->read_u32(":maincpu","program",8)==17);assert(a->read_u8(":maincpu","program",0x1d)==0);
  sx3_ext_game_unloaded();assert(a->get_cpu_count()==0);assert(a->get_cpu_tag(0)==NULL);assert(a->read_u8(":maincpu","program",0x1c)==0);
  return 0;
 }

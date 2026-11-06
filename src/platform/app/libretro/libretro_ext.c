@@ -42,7 +42,7 @@ static void update(void){
  put32(0x28,((uint32_t)G_No[0]<<24)|((uint32_t)G_No[1]<<16)|((uint32_t)G_No[2]<<8)|G_No[3]);put32(0x2c,((uint32_t)C_No[0]<<24)|((uint32_t)C_No[1]<<16)|((uint32_t)C_No[2]<<8)|C_No[3]);
 }
 void sx3_ext_game_loaded(void){active=true;frame=0;update();} void sx3_ext_game_unloaded(void){active=false;frame=0;memset(mem,0,sizeof(mem));}
-void sx3_ext_frame_complete(void){if(active){++frame;update();}} void sx3_ext_state_restored(void){if(active)update();}
+void sx3_ext_frame_complete(void){if(active){++frame;update();}} void sx3_ext_state_restored(void){if(active){frame=Interrupt_Timer;update();}}
 static bool bus(const char*c,const char*s){return active&&c&&s&&!strcmp(c,":maincpu")&&!strcmp(s,"program");}
 static bool range(uint64_t a,size_t w){return a<=sizeof(mem)&&w<=sizeof(mem)-(size_t)a;}
 static uint8_t r8(const char*c,const char*s,uint64_t a){return bus(c,s)&&range(a,1)?mem[a]:0;}

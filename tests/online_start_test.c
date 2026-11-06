@@ -11,6 +11,7 @@ struct _TASK task[11];
 
 static unsigned skip_opening_calls;
 static unsigned start_select_calls;
+static unsigned soft_reset_calls;
 
 void Init_Task_SkipOpening(void) {
     skip_opening_calls++;
@@ -18,6 +19,10 @@ void Init_Task_SkipOpening(void) {
 
 void Start_TwoPlayer_Arcade_Select(void) {
     start_select_calls++;
+}
+
+void Soft_Reset_Sub(void) {
+    soft_reset_calls++;
 }
 
 void Log_Write(LogLevel level, const char *fmt, ...) {
@@ -29,6 +34,7 @@ static void reset_test(void) {
     memset(task, 0, sizeof(task));
     skip_opening_calls = 0;
     start_select_calls = 0;
+    soft_reset_calls = 0;
     LibretroOnlineStart_Reset();
 }
 
@@ -70,9 +76,29 @@ static void test_reset_allows_clean_reload(void) {
     assert(start_select_calls == 2);
 }
 
+static void test_restart_returns_normal_mode_to_title(void) {
+    reset_test();
+    LibretroOnlineStart_Restart();
+    assert(soft_reset_calls == 1);
+    assert(start_select_calls == 0);
+}
+
+static void test_restart_returns_online_mode_to_select(void) {
+    reset_test();
+    LibretroOnlineStart_SetEnabled(true);
+    LibretroOnlineStart_Restart();
+    assert(soft_reset_calls == 1);
+    assert(start_select_calls == 1);
+
+    LibretroOnlineStart_Tick();
+    assert(start_select_calls == 1);
+}
+
 int main(void) {
     test_normal_is_untouched();
     test_online_initializes_once();
     test_reset_allows_clean_reload();
+    test_restart_returns_normal_mode_to_title();
+    test_restart_returns_online_mode_to_select();
     return 0;
 }

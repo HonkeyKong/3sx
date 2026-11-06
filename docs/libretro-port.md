@@ -87,9 +87,11 @@ no stable safe contiguous region is identified. Configuration is the only
 confirmed routed persistent data.
 
 Experimental rollback states are exposed through the standard libretro
-serialize/unserialize API. Outside active gameplay they contain only the input
-history and interrupt timer. The versioned format contains same-process pointers and is intended
-for short-lived rollback buffers, not persistent or cross-version save files.
+serialize/unserialize API. Every successful snapshot contains the complete
+rollback payload throughout character select, gameplay, and results so a
+rollback can safely cross game-phase boundaries. The versioned format contains
+same-process pointers and is intended for short-lived rollback buffers, not
+persistent or cross-version save files.
 
 Peer checksums must use the optional export
 `uint32_t retro_get_state_hash(const void *data, size_t size)` instead of hashing

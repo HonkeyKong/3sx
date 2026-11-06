@@ -3,5 +3,6 @@
 #include <stdbool.h>
 void LibretroOnlineStart_SetEnabled(bool enabled);
 void LibretroOnlineStart_Reset(void);
+void LibretroOnlineStart_Restart(void);
 void LibretroOnlineStart_Tick(void);
 #endif

@@ -1,4 +1,5 @@
 #include "core/rollback_state.h"
+#include "main.h"
 #include "sf33rd/Source/Game/engine/workuser.h"
 #include "sf33rd/Source/Game/system/work_sys.h"
 #include <string.h>
@@ -34,32 +35,45 @@ static void canonicalize(RollbackState* state) {
     for(size_t i=0;i<sizeof(game->Demo_Ptr)/sizeof(game->Demo_Ptr[0]);i++)game->Demo_Ptr[i]=NULL;
 }
 
+void RollbackRuntimeState_Save(RollbackRuntimeState* state) {
+    state->init_training_data = mpp_w.initTrainingData;
+    state->in_game = mpp_w.inGame;
+    state->language = mpp_w.language;
+    state->cut_analog_stick_data = mpp_w.cutAnalogStickData;
+    state->use_analog_stick_data = mpp_w.useAnalogStickData;
+}
+
+void RollbackRuntimeState_Load(const RollbackRuntimeState* state) {
+    mpp_w.initTrainingData = state->init_training_data != 0;
+    mpp_w.inGame = state->in_game != 0;
+    mpp_w.language = state->language;
+    mpp_w.cutAnalogStickData = state->cut_analog_stick_data != 0;
+    mpp_w.useAnalogStickData = state->use_analog_stick_data != 0;
+}
+
 void RollbackState_Save(RollbackState* state) {
     memset(state,0,sizeof(*state)); state->magic=ROLLBACK_STATE_MAGIC; state->version=ROLLBACK_STATE_VERSION; state->total_size=sizeof(*state);
-    state->reserved=ROLLBACK_STATE_FULL;
-    state->payload.interrupt_timer=Interrupt_Timer; InputHistory_Save(&state->payload.input_history); GameState_Save(&state->payload.game);
+    state->kind=ROLLBACK_STATE_FULL;
+    state->payload.interrupt_timer=Interrupt_Timer; InputHistory_Save(&state->payload.input_history);
+    RollbackRuntimeState_Save(&state->payload.runtime); GameState_Save(&state->payload.game);
     EffectState* e=&state->payload.effects; memcpy(e->frw,frw,sizeof(frw)); memcpy(e->exec_tm,exec_tm,sizeof(exec_tm));
     memcpy(e->frwque,frwque,sizeof(frwque)); memcpy(e->head_ix,head_ix,sizeof(head_ix)); memcpy(e->tail_ix,tail_ix,sizeof(tail_ix));
     e->frwctr=frwctr; e->frwctr_min=frwctr_min;
 }
 
-void RollbackState_SaveInputOnly(RollbackState* state) {
-    memset(state,0,sizeof(*state)); state->magic=ROLLBACK_STATE_MAGIC; state->version=ROLLBACK_STATE_VERSION; state->total_size=sizeof(*state);
-    state->reserved=ROLLBACK_STATE_INPUT_ONLY; state->payload.interrupt_timer=Interrupt_Timer; InputHistory_Save(&state->payload.input_history);
-}
-
 RollbackStateKind RollbackState_GetKind(const RollbackState* state,size_t size) {
     if(!state||size!=sizeof(*state)||state->magic!=ROLLBACK_STATE_MAGIC||state->version!=ROLLBACK_STATE_VERSION||state->total_size!=sizeof(*state))return 0;
-    if(state->reserved!=ROLLBACK_STATE_INPUT_ONLY&&state->reserved!=ROLLBACK_STATE_FULL)return 0;
-    return (RollbackStateKind)state->reserved;
+    if(state->kind!=ROLLBACK_STATE_FULL)return 0;
+    return (RollbackStateKind)state->kind;
 }
 
 bool RollbackState_Load(const RollbackState* state,size_t size) {
     const RollbackStateKind kind=RollbackState_GetKind(state,size); if(!kind)return false;
-    Interrupt_Timer=state->payload.interrupt_timer; InputHistory_Load(&state->payload.input_history); if(kind==ROLLBACK_STATE_INPUT_ONLY)return true;
+    Interrupt_Timer=state->payload.interrupt_timer; InputHistory_Load(&state->payload.input_history);
     GameState_Load(&state->payload.game); const EffectState*e=&state->payload.effects;
     memcpy(frw,e->frw,sizeof(frw)); memcpy(exec_tm,e->exec_tm,sizeof(exec_tm)); memcpy(frwque,e->frwque,sizeof(frwque));
     memcpy(head_ix,e->head_ix,sizeof(head_ix)); memcpy(tail_ix,e->tail_ix,sizeof(tail_ix)); frwctr=e->frwctr; frwctr_min=e->frwctr_min;
+    RollbackRuntimeState_Load(&state->payload.runtime);
     return true;
 }
 
